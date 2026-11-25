@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: digital-insurance-pension-tool
+    runtime: node
+    plan: free
+    buildCommand: npm ci --prefix backend && npm ci --prefix frontend && npm run build --prefix frontend
+    startCommand: npm start --prefix backend
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production

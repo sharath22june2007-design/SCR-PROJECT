@@ -1,0 +1,232 @@
+[
+  {
+    "id": "pm-sym",
+    "name": "Pradhan Mantri Shram Yogi Maandhan",
+    "nameKn": null,
+    "category": "Pension",
+    "governmentLevel": "Central",
+    "state": "All India",
+    "description": "A voluntary contributory pension scheme for eligible unorganised workers. The official scheme portal should be checked for current enrolment and terms.",
+    "benefits": [
+      "Assured monthly pension of ₹3,000 from age 60, subject to scheme conditions",
+      "Government makes a matching contribution to the subscriber’s contribution"
+    ],
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 40,
+      "occupations": ["construction", "street-vendor", "domestic", "daily-wage", "other"],
+      "incomeLimit": 15000,
+      "otherConditions": [
+        "Monthly income up to ₹15,000",
+        "Not covered by NPS, Employees’ State Insurance Scheme, or Employees’ Provident Fund Scheme",
+        "Not an income-tax payer"
+      ]
+    },
+    "contribution": "Monthly contribution ranges from ₹55 to ₹200 depending on entry age, matched equally by the Central Government; verify the current contribution chart on the official portal.",
+    "documents": [
+      "Aadhaar",
+      "Savings bank or Jan Dhan account with IFSC",
+      "Mobile number"
+    ],
+    "applicationSteps": [
+      "Enrol through a Common Service Centre or the official scheme portal.",
+      "Confirm eligibility and the contribution amount using the official age-based chart.",
+      "Provide requested documents and consent through the authorised channel."
+    ],
+    "officialUrl": "https://maandhan.in/",
+    "sources": [
+      "https://maandhan.in/",
+      "https://www.labour.gov.in/static/uploads/2025/06/91e0210df5cca17eb6579e88e9a9c690.pdf"
+    ],
+    "lastVerified": "2026-11-23",
+    "verificationStatus": "Verified against Ministry of Labour & Employment Annual Report 2024–25; confirm current terms at enrolment."
+  },
+  {
+    "id": "pmsby",
+    "name": "Pradhan Mantri Suraksha Bima Yojana",
+    "nameKn": null,
+    "category": "Accident Insurance",
+    "governmentLevel": "Central",
+    "state": "All India",
+    "description": "A renewable one-year personal accident insurance scheme for eligible bank or post office account holders.",
+    "benefits": [
+      "₹2 lakh for accidental death or specified total permanent disability",
+      "₹1 lakh for specified partial permanent disability"
+    ],
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 70,
+      "occupations": [],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Individual account holder of a participating bank or post office",
+        "Consent for annual premium auto-debit"
+      ]
+    },
+    "contribution": "₹20 per year per member according to the official FAQ; verify current premium before joining.",
+    "documents": [
+      "Participating bank or post office account",
+      "Enrolment consent through the account provider"
+    ],
+    "applicationSteps": [
+      "Contact a participating bank or post office where you hold an account.",
+      "Review the policy terms and provide consent for auto-debit.",
+      "Keep the enrolment acknowledgement and verify renewal terms."
+    ],
+    "officialUrl": "https://jansuraksha.gov.in/",
+    "sources": ["https://jansuraksha.gov.in/Files/PMSBY/ENGLISH/FAQ.pdf"],
+    "lastVerified": "2026-11-23",
+    "verificationStatus": "Verified against official FAQ; confirm renewal premium and terms."
+  },
+  {
+    "id": "pmjjby",
+    "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+    "nameKn": null,
+    "category": "Life Insurance",
+    "governmentLevel": "Central",
+    "state": "All India",
+    "description": "A renewable one-year term life insurance scheme offered through participating banks and post offices.",
+    "benefits": [
+      "₹2 lakh life cover for death due to any cause, subject to policy terms"
+    ],
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 50,
+      "occupations": [],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Individual account holder of a participating bank or post office",
+        "Consent for annual premium auto-debit",
+        "A 30-day lien period applies to specified first-time or re-joining cover"
+      ]
+    },
+    "contribution": "₹436 per year in the official rules/FAQ reviewed; pro-rata terms and premium can change, verify before joining.",
+    "documents": [
+      "Participating bank or post office account",
+      "Enrolment consent through the account provider"
+    ],
+    "applicationSteps": [
+      "Contact a participating bank or post office where you hold an account.",
+      "Review the current policy terms, exclusions and premium.",
+      "Provide consent and retain the acknowledgement."
+    ],
+    "officialUrl": "https://jansuraksha.gov.in/",
+    "sources": [
+      "https://jansuraksha.gov.in/Files/PMJJBY/English/Rules.pdf",
+      "https://jansuraksha.gov.in/Files/PMJJBY/ENGLISH/FAQ.pdf"
+    ],
+    "lastVerified": "2026-11-23",
+    "verificationStatus": "Verified against official rules/FAQ; premium is subject to revision."
+  },
+  {
+    "id": "apy",
+    "name": "Atal Pension Yojana",
+    "nameKn": null,
+    "category": "Pension",
+    "governmentLevel": "Central",
+    "state": "All India",
+    "description": "A voluntary, periodic contribution pension scheme administered by PFRDA and implemented through banks and the Department of Posts.",
+    "benefits": [
+      "Choice of guaranteed minimum monthly pension of ₹1,000–₹5,000 after age 60",
+      "Spouse pension and nominee pension wealth as specified by scheme rules"
+    ],
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 40,
+      "occupations": [],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Indian citizen with a savings bank or post office savings account",
+        "A person who is or has been an income-tax payer is not eligible to newly join from 1 October 2022"
+      ]
+    },
+    "contribution": "Depends on joining age, chosen pension slab and payment frequency; use the official PFRDA contribution table.",
+    "documents": [
+      "Savings bank or post office savings account",
+      "Nominee and spouse details as applicable; confirm current bank requirements"
+    ],
+    "applicationSteps": [
+      "Contact the bank or post office that holds your savings account, or use an authorised online channel.",
+      "Choose a pension slab and contribution frequency after reviewing the official chart.",
+      "Confirm auto-debit and nomination details with the provider."
+    ],
+    "officialUrl": "https://pfrda.org.in/en/web/pfrda/schemes/atal-pension-yojana-apy",
+    "sources": [
+      "https://pfrda.org.in/en/web/pfrda/schemes/atal-pension-yojana-apy",
+      "https://pfrda.org.in/web/pfrda/w/faqs/atal-pension-yojana"
+    ],
+    "lastVerified": "2026-11-23",
+    "verificationStatus": "Verified against PFRDA scheme page and FAQ."
+  },
+  {
+    "id": "pmjay-70",
+    "name": "Ayushman Bharat PM-JAY: Senior Citizens 70+",
+    "nameKn": null,
+    "category": "Health-related benefits",
+    "governmentLevel": "Central",
+    "state": "All India",
+    "description": "PM-JAY has a dedicated expansion for all people aged 70 and above, regardless of socio-economic status. Eligibility and enrolment must be confirmed through the official beneficiary channel.",
+    "benefits": [
+      "Health cover up to ₹5 lakh for eligible senior citizens aged 70 and above, subject to scheme rules"
+    ],
+    "eligibility": {
+      "minAge": 70,
+      "maxAge": null,
+      "occupations": [],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Age determined from Aadhaar record",
+        "Aadhaar-based e-KYC is required for enrolment"
+      ]
+    },
+    "contribution": "No premium amount is specified for beneficiaries in the NHA FAQ reviewed; confirm current process on official channels.",
+    "documents": ["Aadhaar for age verification and e-KYC, as stated by NHA"],
+    "applicationSteps": [
+      "Check the official beneficiary portal or Ayushman App.",
+      "Complete the official identity verification and enrolment steps.",
+      "Confirm empanelled hospital and coverage details before treatment."
+    ],
+    "officialUrl": "https://beneficiary.nha.gov.in/",
+    "sources": [
+      "https://nha.gov.in/img/resources/English_FAQs_related_to_the_benefits_for_senior_citizens.pdf",
+      "https://beneficiary.nha.gov.in/"
+    ],
+    "lastVerified": "2026-11-23",
+    "verificationStatus": "Verified against National Health Authority senior-citizen FAQ; this record covers the 70+ expansion only."
+  },
+  {
+    "id": "karnataka-bocw-pension",
+    "name": "Karnataka BOCW Board Pension Scheme",
+    "nameKn": null,
+    "category": "Pension",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "A pension scheme listed for registered construction workers under Karnataka’s Building and Other Construction Workers Welfare Board. Benefit amount and current operating requirements need confirmation with the Board.",
+    "benefits": [
+      "Monthly pension benefit for qualifying registered construction workers; amount needs verification"
+    ],
+    "eligibility": {
+      "minAge": 60,
+      "maxAge": null,
+      "occupations": ["construction"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Registration as a beneficiary with the Karnataka BOCW Welfare Board",
+        "Portal listing indicates at least three years as a beneficiary; verify current rule directly with the Board"
+      ]
+    },
+    "contribution": "Needs verification with the Board.",
+    "documents": ["Needs verification with the Board"],
+    "applicationSteps": [
+      "Use the Karnataka BOCW Welfare Board portal or contact the Labour Department to confirm current eligibility and process.",
+      "Confirm required documents, benefit amount and application status directly with the Board."
+    ],
+    "officialUrl": "https://karbwwb.karnataka.gov.in/",
+    "sources": [
+      "https://karbwwb.karnataka.gov.in/",
+      "https://www.myscheme.gov.in/search/state/Karnataka"
+    ],
+    "lastVerified": "2026-11-23",
+    "verificationStatus": "Needs verification: scheme is listed in official state scheme directory; detailed current rules, benefit and documents not confirmed."
+  }
+]

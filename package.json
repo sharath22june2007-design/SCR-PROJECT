@@ -1,0 +1,17 @@
+{
+  "name": "digital-insurance-pension-tool",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev": "concurrently -k -n API,WEB -c blue,green \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "npm --prefix backend run dev",
+    "dev:web": "npm --prefix frontend run dev",
+    "format": "prettier --write \"frontend/src/**/*.{js,jsx,css}\" \"frontend/*.{js,html,json}\" \"backend/**/*.{js,json}\" \"*.{json,md,yaml}\"",
+    "format:check": "prettier --check \"frontend/src/**/*.{js,jsx,css}\" \"frontend/*.{js,html,json}\" \"backend/**/*.{js,json}\" \"*.{json,md,yaml}\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "prettier": "^3.10.1"
+  }
+}
