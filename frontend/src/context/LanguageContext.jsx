@@ -115,46 +115,65 @@ const copy = {
       'A simple guide to life insurance, accident cover and pensions—and what to check before joining.',
     awarenessRead: 'Read the simple guide',
     awarenessLifeTitle: 'Life insurance',
-    awarenessLifeLink: 'See life insurance schemes',
     awarenessAccidentTitle: 'Accident cover',
-    awarenessAccidentLink: 'See accident schemes',
     awarenessPensionTitle: 'Pension',
-    awarenessPensionLink: 'See pension schemes',
     learnEyebrow: 'A SIMPLE GUIDE',
-    learnTitle: 'Understand your protection options',
+    learnTitle: 'Understand insurance and pensions',
     learnIntro:
-      'Learn what life insurance, accident cover and pensions can do, and what to check before joining a scheme.',
-    learnBeforeJoining: 'Before you join, check:',
-    learnLifeWhy:
-      'If the insured person dies while the cover is active, the policy may pay the named beneficiary. This can help the family manage everyday costs.',
+      'Start with a short explanation. Choose “Learn more” for the full details and things to check.',
+    learnMore: 'Learn more',
+    learnFullDetails: 'THE FULL EXPLANATION',
+    learnLifeShort:
+      'A policy may pay money to your nominee if you die while the cover is active.',
+    learnLifeWhatTitle: 'What is life insurance?',
+    learnLifeWhat:
+      'Life insurance is an agreement between you and an insurer. You pay a premium to keep the cover active. If you die while the policy is active, the insurer may pay the benefit stated in the policy to your nominee. The amount and rules depend on that policy.',
+    learnLifeHelpTitle: 'How can it help your family?',
+    learnLifeHelp:
+      'The payment can help your family manage daily expenses, repay debts or continue a child’s education after your income stops. It cannot replace you, and the payment is not automatic: the insurer checks the claim against the policy rules.',
+    learnLifeCheckTitle: 'What should you check before joining?',
     learnLifeChecks: [
-      'Who is covered, and what situations are excluded?',
-      'What is the premium, when is it due, and when does the cover renew?',
-      'Name a beneficiary and tell your family where the policy details are kept.',
+      'Who can join, who is covered, and how much will the nominee receive?',
+      'Can you afford every premium? Check when it is due, how to renew, and what happens if a payment is missed.',
+      'Read the exclusions and any waiting period. Some situations may not be covered, or may not be covered straight away.',
+      'Answer questions about your health, work and habits truthfully. Keep a copy of the application and policy.',
+      'Name the right nominee and tell your family where the policy and insurer contact details are kept.',
+      'Ask how and when a claim must be made, and which documents the nominee will need.',
+      'Confirm the current terms with the insurer, bank or official scheme office before paying.',
     ],
-    learnAccidentWhy:
-      'A covered accident may lead to a payment for death or disability. Some schemes also help with hospital expenses.',
+    learnAccidentShort:
+      'Accident cover may help after a covered accident causes injury, disability or death.',
+    learnAccidentWhatTitle: 'What is accident cover?',
+    learnAccidentWhat:
+      'Accident cover is insurance for specific losses caused by an accident, as defined in its terms. It may cover accidental death or disability; some policies also cover treatment costs.',
+    learnAccidentHelpTitle: 'How can it help?',
+    learnAccidentHelp:
+      'A payment may help with treatment, lost earnings or family expenses after a serious covered accident. The amount depends on the injury and the policy. It does not cover every illness or accident.',
+    learnAccidentCheckTitle: 'What should you check before joining?',
     learnAccidentChecks: [
-      'Which workers and work activities are covered?',
-      'Which injuries qualify, and what proof or claim deadline applies?',
-      'Who can make a claim for the worker?',
+      'Which people and work activities are covered?',
+      'Which injuries qualify, and how is a disability assessed?',
+      'Check exclusions, benefit amounts, premium and cover dates.',
+      'Find out the claim deadline, required documents and who can submit the claim.',
     ],
-    learnPensionWhy:
-      'A pension can provide regular income later in life. Contributory schemes ask you to pay regularly to receive the stated pension.',
+    learnPensionShort:
+      'A pension can provide regular income later in life, based on the scheme’s rules.',
+    learnPensionWhatTitle: 'What is a pension?',
+    learnPensionWhat:
+      'A pension is money paid regularly after you meet the scheme’s conditions, often when you reach a specified age. Some schemes are funded by your contributions, sometimes with support from another party.',
+    learnPensionHelpTitle: 'How can it help?',
+    learnPensionHelp:
+      'A regular pension can help pay for food, housing, medicines and other needs when you are older and may not be able to work as much.',
+    learnPensionCheckTitle: 'What should you check before joining?',
     learnPensionChecks: [
-      'What are the age, occupation and other eligibility rules?',
-      'How much do you pay, how often, and when can the pension start?',
-      'What happens if you miss payments or the subscriber dies?',
-    ],
-    learnNextEyebrow: 'TAKE A PRACTICAL NEXT STEP',
-    learnNextTitle: 'How to get started',
-    learnSteps: [
-      'Browse schemes that fit your work and needs.',
-      'Check eligibility, benefits, costs and exclusions.',
-      'Confirm the latest rules with the official department, bank or service centre.',
+      'Check the age and other eligibility rules, and when payments can begin.',
+      'Understand how much you must contribute, how often, and whether the amount can change.',
+      'Ask what happens if a payment is missed, you leave the scheme, or the member dies.',
+      'Check what pension, if any, a spouse or family member can receive.',
+      'Keep receipts and scheme records, and confirm the current terms with the official office.',
     ],
     learnNotice:
-      'This site provides information; it does not enrol applicants. Confirm the latest rules with the official authority.',
+      'Rules differ by policy and scheme and can change. This guide is for awareness only; confirm the latest terms with the official provider before joining.',
   },
   kn: {
     home: 'ಮುಖಪುಟ',
@@ -261,46 +280,65 @@ const copy = {
       'ಜೀವ ವಿಮೆ, ಅಪಘಾತ ವಿಮೆ ಮತ್ತು ಪಿಂಚಣಿ ಬಗ್ಗೆ ಹಾಗೂ ಯೋಜನೆ ಸೇರುವ ಮೊದಲು ಏನು ಪರಿಶೀಲಿಸಬೇಕು ಎಂಬ ಸರಳ ಮಾರ್ಗದರ್ಶಿ.',
     awarenessRead: 'ಸರಳ ಮಾರ್ಗದರ್ಶಿ ಓದಿ',
     awarenessLifeTitle: 'ಜೀವ ವಿಮೆ',
-    awarenessLifeLink: 'ಜೀವ ವಿಮೆ ಯೋಜನೆಗಳನ್ನು ನೋಡಿ',
     awarenessAccidentTitle: 'ಅಪಘಾತ ವಿಮೆ',
-    awarenessAccidentLink: 'ಅಪಘಾತ ವಿಮೆ ಯೋಜನೆಗಳನ್ನು ನೋಡಿ',
     awarenessPensionTitle: 'ಪಿಂಚಣಿ',
-    awarenessPensionLink: 'ಪಿಂಚಣಿ ಯೋಜನೆಗಳನ್ನು ನೋಡಿ',
     learnEyebrow: 'ಸರಳ ಮಾರ್ಗದರ್ಶಿ',
-    learnTitle: 'ನಿಮ್ಮ ಆಯ್ಕೆಗಳನ್ನು ತಿಳಿದುಕೊಳ್ಳಿ',
+    learnTitle: 'ವಿಮೆ ಮತ್ತು ಪಿಂಚಣಿಯನ್ನು ತಿಳಿದುಕೊಳ್ಳಿ',
     learnIntro:
-      'ಜೀವ ವಿಮೆ, ಅಪಘಾತ ವಿಮೆ ಮತ್ತು ಪಿಂಚಣಿ ಹೇಗೆ ನೆರವಾಗಬಹುದು, ಯೋಜನೆ ಸೇರುವ ಮೊದಲು ಏನು ಪರಿಶೀಲಿಸಬೇಕು ಎಂಬುದನ್ನು ತಿಳಿಯಿರಿ.',
-    learnBeforeJoining: 'ಸೇರುವ ಮೊದಲು ಪರಿಶೀಲಿಸಿ:',
-    learnLifeWhy:
-      'ವಿಮೆ ಚಾಲ್ತಿಯಲ್ಲಿರುವಾಗ ವಿಮೆ ಪಡೆದ ವ್ಯಕ್ತಿ ಮೃತಪಟ್ಟರೆ, ಯೋಜನೆಯ ನಿಯಮಗಳಂತೆ ನಾಮಿನಿಗೆ ಹಣ ಸಿಗಬಹುದು. ಈ ಹಣ ಕುಟುಂಬದ ದಿನನಿತ್ಯದ ಖರ್ಚಿಗೆ ನೆರವಾಗಬಹುದು.',
+      'ಮೊದಲು ಚಿಕ್ಕ ವಿವರಣೆಯನ್ನು ಓದಿ. ಪೂರ್ಣ ಮಾಹಿತಿ ಮತ್ತು ಪರಿಶೀಲಿಸಬೇಕಾದ ವಿಷಯಗಳಿಗಾಗಿ “ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ” ಆಯ್ಕೆಮಾಡಿ.',
+    learnMore: 'ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ',
+    learnFullDetails: 'ಪೂರ್ಣ ಮಾಹಿತಿ',
+    learnLifeShort:
+      'ವಿಮೆ ಚಾಲ್ತಿಯಲ್ಲಿರುವಾಗ ನೀವು ಮೃತಪಟ್ಟರೆ, ಪಾಲಿಸಿಯ ನಿಯಮಗಳಂತೆ ನಾಮಿನಿಗೆ ಹಣ ಸಿಗಬಹುದು.',
+    learnLifeWhatTitle: 'ಜೀವ ವಿಮೆ ಎಂದರೇನು?',
+    learnLifeWhat:
+      'ಜೀವ ವಿಮೆ ಎಂದರೆ ನಿಮ್ಮ ಮತ್ತು ವಿಮಾ ಸಂಸ್ಥೆಯ ನಡುವಿನ ಒಪ್ಪಂದ. ವಿಮೆ ಚಾಲ್ತಿಯಲ್ಲಿರಲು ನೀವು ಪ್ರೀಮಿಯಂ ಪಾವತಿಸುತ್ತೀರಿ. ಪಾಲಿಸಿ ಚಾಲ್ತಿಯಲ್ಲಿರುವಾಗ ನೀವು ಮೃತಪಟ್ಟರೆ, ಪಾಲಿಸಿಯಲ್ಲಿ ತಿಳಿಸಿರುವ ಹಣವನ್ನು ವಿಮಾ ಸಂಸ್ಥೆ ನಿಮ್ಮ ನಾಮಿನಿಗೆ ನೀಡಬಹುದು. ಎಷ್ಟು ಹಣ ಸಿಗುತ್ತದೆ ಮತ್ತು ಯಾವ ನಿಯಮಗಳು ಅನ್ವಯಿಸುತ್ತವೆ ಎಂಬುದು ಆ ಪಾಲಿಸಿಯ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿರುತ್ತದೆ.',
+    learnLifeHelpTitle: 'ಇದು ನಿಮ್ಮ ಕುಟುಂಬಕ್ಕೆ ಹೇಗೆ ನೆರವಾಗಬಹುದು?',
+    learnLifeHelp:
+      'ನಿಮ್ಮ ಆದಾಯ ನಿಂತ ನಂತರ ಕುಟುಂಬದ ದಿನನಿತ್ಯದ ಖರ್ಚು, ಸಾಲ ಮರುಪಾವತಿ ಅಥವಾ ಮಕ್ಕಳ ಶಿಕ್ಷಣಕ್ಕೆ ಈ ಹಣ ನೆರವಾಗಬಹುದು. ಆದರೆ ಇದು ನಿಮ್ಮ ಸ್ಥಾನವನ್ನು ತುಂಬಲಾರದು; ಹಣ ತಾನಾಗಿಯೇ ಸಿಗುವುದಿಲ್ಲ. ಪಾಲಿಸಿ ನಿಯಮಗಳ ಪ್ರಕಾರ ವಿಮಾ ಸಂಸ್ಥೆ ಅರ್ಜಿಯನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ.',
+    learnLifeCheckTitle: 'ಸೇರುವ ಮೊದಲು ಏನು ಪರಿಶೀಲಿಸಬೇಕು?',
     learnLifeChecks: [
-      'ಯಾರಿಗೆ ವಿಮಾ ರಕ್ಷಣೆ ಇದೆ? ಯಾವ ಸಂದರ್ಭಗಳಿಗೆ ಹಣ ಸಿಗುವುದಿಲ್ಲ?',
-      'ಪ್ರೀಮಿಯಂ ಎಷ್ಟು? ಯಾವಾಗ ಪಾವತಿಸಬೇಕು? ವಿಮೆ ಯಾವಾಗ ನವೀಕರಣವಾಗುತ್ತದೆ?',
-      'ನಾಮಿನಿಯ ಹೆಸರನ್ನು ನೀಡಿ. ವಿಮೆಯ ದಾಖಲೆಗಳು ಎಲ್ಲಿವೆ ಎಂದು ಕುಟುಂಬದವರಿಗೆ ತಿಳಿಸಿ.',
+      'ಯಾರು ಸೇರಬಹುದು, ಯಾರಿಗೆ ವಿಮಾ ರಕ್ಷಣೆ ಇದೆ, ನಾಮಿನಿಗೆ ಎಷ್ಟು ಹಣ ಸಿಗುತ್ತದೆ ಎಂದು ತಿಳಿಯಿರಿ.',
+      'ಪ್ರತಿ ಪ್ರೀಮಿಯಂ ಅನ್ನು ಪಾವತಿಸಲು ಸಾಧ್ಯವೇ ಎಂದು ನೋಡಿ. ಪಾವತಿ ದಿನ, ನವೀಕರಣ ವಿಧಾನ ಮತ್ತು ಕಂತು ತಪ್ಪಿದರೆ ಏನಾಗುತ್ತದೆ ಎಂದು ತಿಳಿಯಿರಿ.',
+      'ಹೊರತಾಗಿರುವ ಷರತ್ತುಗಳು ಮತ್ತು ಕಾಯುವ ಅವಧಿ ಇದ್ದರೆ ಪರಿಶೀಲಿಸಿ. ಕೆಲವು ಸಂದರ್ಭಗಳಿಗೆ ರಕ್ಷಣೆ ಇರದಿರಬಹುದು ಅಥವಾ ತಕ್ಷಣ ಆರಂಭವಾಗದಿರಬಹುದು.',
+      'ಆರೋಗ್ಯ, ಕೆಲಸ ಮತ್ತು ಅಭ್ಯಾಸಗಳ ಬಗ್ಗೆ ಕೇಳಿದ ಪ್ರಶ್ನೆಗಳಿಗೆ ಸತ್ಯವಾಗಿ ಉತ್ತರಿಸಿ. ಅರ್ಜಿ ಮತ್ತು ಪಾಲಿಸಿಯ ಪ್ರತಿಯನ್ನು ಇಟ್ಟುಕೊಳ್ಳಿ.',
+      'ಸರಿಯಾದ ನಾಮಿನಿಯನ್ನು ಹೆಸರಿಸಿ. ಪಾಲಿಸಿ ಮತ್ತು ವಿಮಾ ಸಂಸ್ಥೆಯ ಸಂಪರ್ಕ ವಿವರಗಳು ಎಲ್ಲಿವೆ ಎಂದು ಕುಟುಂಬಕ್ಕೆ ತಿಳಿಸಿ.',
+      'ಹಕ್ಕು ಅರ್ಜಿಯನ್ನು ಯಾವಾಗ, ಹೇಗೆ ಸಲ್ಲಿಸಬೇಕು ಮತ್ತು ನಾಮಿನಿಗೆ ಯಾವ ದಾಖಲೆಗಳು ಬೇಕು ಎಂದು ಕೇಳಿ.',
+      'ಹಣ ಪಾವತಿಸುವ ಮೊದಲು ವಿಮಾ ಸಂಸ್ಥೆ, ಬ್ಯಾಂಕ್ ಅಥವಾ ಅಧಿಕೃತ ಯೋಜನಾ ಕಚೇರಿಯಲ್ಲಿ ಈಗಿನ ನಿಯಮಗಳನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.',
     ],
-    learnAccidentWhy:
-      'ವಿಮೆ ಒಳಗೊಂಡಿರುವ ಅಪಘಾತದಿಂದ ಸಾವು ಅಥವಾ ಅಂಗವೈಕಲ್ಯ ಉಂಟಾದರೆ ಹಣ ಸಿಗಬಹುದು. ಕೆಲವು ಯೋಜನೆಗಳು ಆಸ್ಪತ್ರೆ ವೆಚ್ಚಕ್ಕೂ ನೆರವಾಗುತ್ತವೆ.',
+    learnAccidentShort:
+      'ವಿಮೆ ಒಳಗೊಂಡ ಅಪಘಾತದಿಂದ ಗಾಯ, ಅಂಗವೈಕಲ್ಯ ಅಥವಾ ಸಾವು ಸಂಭವಿಸಿದರೆ ನೆರವು ಸಿಗಬಹುದು.',
+    learnAccidentWhatTitle: 'ಅಪಘಾತ ವಿಮೆ ಎಂದರೇನು?',
+    learnAccidentWhat:
+      'ಅಪಘಾತದಿಂದ ಉಂಟಾಗುವ, ವಿಮೆಯ ನಿಯಮಗಳಲ್ಲಿ ತಿಳಿಸಿರುವ ಕೆಲವು ನಷ್ಟಗಳಿಗೆ ಅಪಘಾತ ವಿಮೆ ರಕ್ಷಣೆ ನೀಡುತ್ತದೆ. ಇದರಲ್ಲಿ ಅಪಘಾತದಿಂದ ಸಾವು ಅಥವಾ ಅಂಗವೈಕಲ್ಯ ಸೇರಿರಬಹುದು. ಕೆಲವು ಪಾಲಿಸಿಗಳು ಚಿಕಿತ್ಸೆಯ ವೆಚ್ಚವನ್ನೂ ಒಳಗೊಂಡಿರುತ್ತವೆ.',
+    learnAccidentHelpTitle: 'ಇದು ಹೇಗೆ ನೆರವಾಗಬಹುದು?',
+    learnAccidentHelp:
+      'ಗಂಭೀರವಾದ, ವಿಮೆ ಒಳಗೊಂಡ ಅಪಘಾತದ ನಂತರ ಚಿಕಿತ್ಸೆ, ಆದಾಯ ನಷ್ಟ ಅಥವಾ ಕುಟುಂಬದ ಖರ್ಚಿಗೆ ಹಣ ನೆರವಾಗಬಹುದು. ಎಷ್ಟು ನೆರವು ಸಿಗುತ್ತದೆ ಎಂಬುದು ಗಾಯ ಮತ್ತು ಪಾಲಿಸಿಯ ಮೇಲೆ ಅವಲಂಬಿತ. ಎಲ್ಲ ಕಾಯಿಲೆ ಅಥವಾ ಅಪಘಾತಗಳಿಗೂ ಇದು ಅನ್ವಯಿಸುವುದಿಲ್ಲ.',
+    learnAccidentCheckTitle: 'ಸೇರುವ ಮೊದಲು ಏನು ಪರಿಶೀಲಿಸಬೇಕು?',
     learnAccidentChecks: [
-      'ಯಾವ ಕಾರ್ಮಿಕರು ಮತ್ತು ಯಾವ ಕೆಲಸಗಳು ವಿಮೆಯಲ್ಲಿ ಸೇರಿವೆ?',
-      'ಯಾವ ಗಾಯಗಳಿಗೆ ನೆರವು ಸಿಗುತ್ತದೆ? ಯಾವ ದಾಖಲೆ ಮತ್ತು ಅರ್ಜಿ ಗಡುವು ಬೇಕು?',
-      'ಕಾರ್ಮಿಕರ ಪರವಾಗಿ ಯಾರು ಅರ್ಜಿ ಸಲ್ಲಿಸಬಹುದು?',
+      'ಯಾವ ವ್ಯಕ್ತಿಗಳು ಮತ್ತು ಕೆಲಸಗಳು ವಿಮೆಯಲ್ಲಿ ಸೇರಿವೆ?',
+      'ಯಾವ ಗಾಯಗಳಿಗೆ ಹಣ ಸಿಗುತ್ತದೆ? ಅಂಗವೈಕಲ್ಯವನ್ನು ಹೇಗೆ ನಿರ್ಧರಿಸುತ್ತಾರೆ?',
+      'ಹೊರತಾಗಿರುವ ಷರತ್ತುಗಳು, ಸಿಗುವ ಹಣ, ಪ್ರೀಮಿಯಂ ಮತ್ತು ರಕ್ಷಣೆಯ ಅವಧಿಯನ್ನು ಪರಿಶೀಲಿಸಿ.',
+      'ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಕೊನೆಯ ದಿನ, ಬೇಕಾದ ದಾಖಲೆಗಳು ಮತ್ತು ಯಾರು ಅರ್ಜಿ ಸಲ್ಲಿಸಬಹುದು ಎಂದು ತಿಳಿಯಿರಿ.',
     ],
-    learnPensionWhy:
-      'ಪಿಂಚಣಿಯಿಂದ ವಯಸ್ಸಾದ ಮೇಲೆ ನಿಯಮಿತ ಹಣ ಸಿಗಬಹುದು. ಕೆಲವು ಯೋಜನೆಗಳಿಗೆ ನೀವು ನಿಯಮಿತವಾಗಿ ಹಣ ಕಟ್ಟಬೇಕು.',
+    learnPensionShort:
+      'ಯೋಜನೆಯ ನಿಯಮಗಳನ್ನು ಪೂರೈಸಿದರೆ, ಪಿಂಚಣಿಯಿಂದ ವಯಸ್ಸಾದ ಮೇಲೆ ನಿಯಮಿತ ಹಣ ಸಿಗಬಹುದು.',
+    learnPensionWhatTitle: 'ಪಿಂಚಣಿ ಎಂದರೇನು?',
+    learnPensionWhat:
+      'ಯೋಜನೆಯ ನಿಯಮಗಳನ್ನು ಪೂರೈಸಿದ ನಂತರ, ಸಾಮಾನ್ಯವಾಗಿ ನಿಗದಿತ ವಯಸ್ಸಿನಿಂದ ನಿಯಮಿತವಾಗಿ ಸಿಗುವ ಹಣವೇ ಪಿಂಚಣಿ. ಕೆಲವು ಯೋಜನೆಗಳಲ್ಲಿ ನೀವು ಹಣ ಕಟ್ಟಬೇಕು; ಕೆಲವೊಮ್ಮೆ ಇನ್ನೊಂದು ಸಂಸ್ಥೆಯೂ ಹಣ ನೀಡಬಹುದು.',
+    learnPensionHelpTitle: 'ಇದು ಹೇಗೆ ನೆರವಾಗಬಹುದು?',
+    learnPensionHelp:
+      'ವಯಸ್ಸಾದಾಗ ಹೆಚ್ಚು ಕೆಲಸ ಮಾಡಲು ಆಗದಿರಬಹುದು. ಆಗ ಆಹಾರ, ಮನೆ, ಔಷಧಿ ಮತ್ತು ಇತರ ಅಗತ್ಯಗಳಿಗೆ ನಿಯಮಿತ ಪಿಂಚಣಿ ನೆರವಾಗಬಹುದು.',
+    learnPensionCheckTitle: 'ಸೇರುವ ಮೊದಲು ಏನು ಪರಿಶೀಲಿಸಬೇಕು?',
     learnPensionChecks: [
-      'ವಯಸ್ಸು, ಉದ್ಯೋಗ ಮತ್ತು ಇತರ ಅರ್ಹತಾ ನಿಯಮಗಳೇನು?',
-      'ಎಷ್ಟು ಹಣ, ಎಷ್ಟು ಬಾರಿ ಕಟ್ಟಬೇಕು? ಪಿಂಚಣಿ ಯಾವಾಗ ಆರಂಭವಾಗುತ್ತದೆ?',
-      'ಹಣ ಕಟ್ಟುವುದು ತಪ್ಪಿದರೆ ಅಥವಾ ಸದಸ್ಯರು ಮೃತಪಟ್ಟರೆ ಏನಾಗುತ್ತದೆ?',
-    ],
-    learnNextEyebrow: 'ಮುಂದಿನ ಸರಳ ಹೆಜ್ಜೆ',
-    learnNextTitle: 'ಹೇಗೆ ಪ್ರಾರಂಭಿಸಬೇಕು?',
-    learnSteps: [
-      'ನಿಮ್ಮ ಕೆಲಸ ಮತ್ತು ಅಗತ್ಯಕ್ಕೆ ಹೊಂದುವ ಯೋಜನೆಗಳನ್ನು ನೋಡಿ.',
-      'ಅರ್ಹತೆ, ಸೌಲಭ್ಯ, ವೆಚ್ಚ ಮತ್ತು ಹೊರತಾಗಿರುವ ಷರತ್ತುಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.',
-      'ಅಧಿಕೃತ ಇಲಾಖೆ, ಬ್ಯಾಂಕ್ ಅಥವಾ ಸೇವಾ ಕೇಂದ್ರದಲ್ಲಿ ಇತ್ತೀಚಿನ ನಿಯಮಗಳನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.',
+      'ವಯಸ್ಸು ಮತ್ತು ಇತರ ಅರ್ಹತಾ ನಿಯಮಗಳು ಹಾಗೂ ಹಣ ಸಿಗಲು ಆರಂಭಿಸುವ ವಯಸ್ಸನ್ನು ತಿಳಿಯಿರಿ.',
+      'ಎಷ್ಟು ಹಣ, ಎಷ್ಟು ಬಾರಿ ಕಟ್ಟಬೇಕು ಮತ್ತು ಆ ಮೊತ್ತ ಬದಲಾಗಬಹುದೇ ಎಂದು ತಿಳಿಯಿರಿ.',
+      'ಕಂತು ತಪ್ಪಿದರೆ, ಯೋಜನೆ ಬಿಟ್ಟರೆ ಅಥವಾ ಸದಸ್ಯರು ಮೃತಪಟ್ಟರೆ ಏನಾಗುತ್ತದೆ ಎಂದು ಕೇಳಿ.',
+      'ಪತಿ ಅಥವಾ ಕುಟುಂಬದವರಿಗೆ ಪಿಂಚಣಿ ಸಿಗುತ್ತದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.',
+      'ರಸೀದಿ ಮತ್ತು ಯೋಜನೆಯ ದಾಖಲೆಗಳನ್ನು ಇಟ್ಟುಕೊಳ್ಳಿ. ಅಧಿಕೃತ ಕಚೇರಿಯಲ್ಲಿ ಈಗಿನ ನಿಯಮಗಳನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.',
     ],
     learnNotice:
-      'ಈ ತಾಣ ಮಾಹಿತಿ ಮಾತ್ರ ನೀಡುತ್ತದೆ; ಇಲ್ಲಿ ಅರ್ಜಿ ಸಲ್ಲಿಸುವುದಿಲ್ಲ. ಇತ್ತೀಚಿನ ನಿಯಮಗಳನ್ನು ಅಧಿಕೃತ ಪ್ರಾಧಿಕಾರದಲ್ಲಿ ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.',
+      'ಪ್ರತಿ ಪಾಲಿಸಿ ಮತ್ತು ಯೋಜನೆಯ ನಿಯಮಗಳು ಬೇರೆಬೇರೆ; ಅವು ಬದಲಾಗಬಹುದು. ಈ ಮಾರ್ಗದರ್ಶಿ ಮಾಹಿತಿ ನೀಡಲು ಮಾತ್ರ. ಸೇರುವ ಮೊದಲು ಅಧಿಕೃತ ಸಂಸ್ಥೆಯಲ್ಲಿ ಈಗಿನ ನಿಯಮಗಳನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.',
   },
 };
 const Ctx = createContext(null);

@@ -1,31 +1,57 @@
-import { ArrowRight, Heart, ShieldAlert, Wallet } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { ArrowDown, Heart, ShieldAlert, Wallet } from 'lucide-react';
 import { useLang } from '../context/LanguageContext.jsx';
 
 const topics = [
   {
     icon: Heart,
     title: 'awarenessLifeTitle',
-    explanation: 'learnLifeWhy',
-    checks: 'learnLifeChecks',
-    category: 'Life Insurance',
-    link: 'awarenessLifeLink',
+    summary: 'learnLifeShort',
+    id: 'learn-life',
   },
   {
     icon: ShieldAlert,
     title: 'awarenessAccidentTitle',
-    explanation: 'learnAccidentWhy',
-    checks: 'learnAccidentChecks',
-    category: 'Accident Insurance',
-    link: 'awarenessAccidentLink',
+    summary: 'learnAccidentShort',
+    id: 'learn-accident',
   },
   {
     icon: Wallet,
     title: 'awarenessPensionTitle',
-    explanation: 'learnPensionWhy',
-    checks: 'learnPensionChecks',
-    category: 'Pension',
-    link: 'awarenessPensionLink',
+    summary: 'learnPensionShort',
+    id: 'learn-pension',
+  },
+];
+
+const details = [
+  {
+    id: 'learn-life',
+    title: 'awarenessLifeTitle',
+    icon: Heart,
+    groups: [
+      { heading: 'learnLifeWhatTitle', items: 'learnLifeWhat' },
+      { heading: 'learnLifeHelpTitle', items: 'learnLifeHelp' },
+      { heading: 'learnLifeCheckTitle', items: 'learnLifeChecks' },
+    ],
+  },
+  {
+    id: 'learn-accident',
+    title: 'awarenessAccidentTitle',
+    icon: ShieldAlert,
+    groups: [
+      { heading: 'learnAccidentWhatTitle', items: 'learnAccidentWhat' },
+      { heading: 'learnAccidentHelpTitle', items: 'learnAccidentHelp' },
+      { heading: 'learnAccidentCheckTitle', items: 'learnAccidentChecks' },
+    ],
+  },
+  {
+    id: 'learn-pension',
+    title: 'awarenessPensionTitle',
+    icon: Wallet,
+    groups: [
+      { heading: 'learnPensionWhatTitle', items: 'learnPensionWhat' },
+      { heading: 'learnPensionHelpTitle', items: 'learnPensionHelp' },
+      { heading: 'learnPensionCheckTitle', items: 'learnPensionChecks' },
+    ],
   },
 ];
 
@@ -41,8 +67,8 @@ export function Learn() {
       </header>
 
       <div className="learn-grid">
-        {topics.map(({ icon: Icon, title, explanation, checks, category, link }, index) => (
-          <article className="learn-card" key={title}>
+        {topics.map(({ icon: Icon, title, summary, id }, index) => (
+          <article className="learn-card" key={id}>
             <div className="learn-card-top">
               <span className="awareness-icon" aria-hidden="true">
                 <Icon size={21} />
@@ -50,36 +76,51 @@ export function Learn() {
               <span className="learn-number">0{index + 1}</span>
             </div>
             <h2>{t[title]}</h2>
-            <p className="learn-explanation">{t[explanation]}</p>
-            <h3>{t.learnBeforeJoining}</h3>
-            <ul>
-              {t[checks].map((check) => (
-                <li key={check}>{check}</li>
-              ))}
-            </ul>
-            <Link
-              className="text-link learn-link"
-              to={`/schemes?category=${encodeURIComponent(category)}`}
-            >
-              {t[link]}
-              <ArrowRight size={16} />
-            </Link>
+            <p className="learn-explanation">{t[summary]}</p>
+            <a className="text-link learn-link" href={`#${id}`}>
+              {t.learnMore}
+              <ArrowDown size={16} aria-hidden="true" />
+            </a>
           </article>
         ))}
       </div>
 
-      <section className="learn-next" aria-labelledby="learn-next-title">
-        <div className="eyebrow">{t.learnNextEyebrow}</div>
-        <h2 id="learn-next-title">{t.learnNextTitle}</h2>
-        <div className="learn-next-steps">
-          {t.learnSteps.map((step, index) => (
-            <div className="learn-step" key={step}>
-              <span className="step-num">0{index + 1}</span>
-              <p>{step}</p>
+      <div className="learn-detail-list">
+        {details.map(({ id, title, icon: Icon, groups }) => (
+          <section
+            className="learn-detail"
+            id={id}
+            key={id}
+            aria-labelledby={`${id}-title`}
+          >
+            <div className="learn-detail-heading">
+              <span className="awareness-icon" aria-hidden="true">
+                <Icon size={21} />
+              </span>
+              <div>
+                <div className="eyebrow">{t.learnFullDetails}</div>
+                <h2 id={`${id}-title`}>{t[title]}</h2>
+              </div>
             </div>
-          ))}
-        </div>
-      </section>
+            <div className="learn-detail-grid">
+              {groups.map(({ heading, items }) => (
+                <section className="learn-detail-block" key={heading}>
+                  <h3>{t[heading]}</h3>
+                  {Array.isArray(t[items]) ? (
+                    <ul>
+                      {t[items].map((item) => (
+                        <li key={item}>{item}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p>{t[items]}</p>
+                  )}
+                </section>
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
 
       <div className="notice learn-notice">{t.learnNotice}</div>
     </div>
