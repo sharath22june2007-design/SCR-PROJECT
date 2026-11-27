@@ -14,7 +14,15 @@
     "eligibility": {
       "minAge": 18,
       "maxAge": 40,
-      "occupations": ["construction", "street-vendor", "domestic", "daily-wage", "other"],
+      "occupations": [
+        "construction",
+        "street-vendor",
+        "domestic",
+        "daily-wage",
+        "agricultural-worker",
+        "beedi-worker",
+        "other"
+      ],
       "incomeLimit": 15000,
       "otherConditions": [
         "Monthly income up to ₹15,000",
@@ -201,9 +209,9 @@
     "category": "Pension",
     "governmentLevel": "Karnataka",
     "state": "Karnataka",
-    "description": "A pension scheme listed for registered construction workers under Karnataka’s Building and Other Construction Workers Welfare Board. Benefit amount and current operating requirements need confirmation with the Board.",
+    "description": "A superannuation pension for qualifying registered construction workers under Karnataka’s Building and Other Construction Workers Welfare Board.",
     "benefits": [
-      "Monthly pension benefit for qualifying registered construction workers; amount needs verification"
+      "The CAG’s 2025 performance audit describes a pension of ₹3,000 per month from age 60"
     ],
     "eligibility": {
       "minAge": 60,
@@ -211,11 +219,12 @@
       "occupations": ["construction"],
       "incomeLimit": null,
       "otherConditions": [
-        "Registration as a beneficiary with the Karnataka BOCW Welfare Board",
-        "Portal listing indicates at least three years as a beneficiary; verify current rule directly with the Board"
+        "Registered with the Karnataka BOCW Welfare Board for at least three continuous years before turning 60",
+        "The audit report says the worker must pay the listed annual subscription of ₹50 until age 60",
+        "The report says to apply within six months of turning 60; confirm current procedure with the Board"
       ]
     },
-    "contribution": "Needs verification with the Board.",
+    "contribution": "The CAG report describes a ₹50 annual subscription until age 60; confirm current rates and conditions with the Board.",
     "documents": ["Needs verification with the Board"],
     "applicationSteps": [
       "Use the Karnataka BOCW Welfare Board portal or contact the Labour Department to confirm current eligibility and process.",
@@ -224,9 +233,1070 @@
     "officialUrl": "https://karbwwb.karnataka.gov.in/",
     "sources": [
       "https://karbwwb.karnataka.gov.in/",
-      "https://www.myscheme.gov.in/search/state/Karnataka"
+      "https://cag.gov.in/uploads/download_audit_report/2025/PA-on-Welfare-of-Building-and-Other-Construction-workers-in-Karnataka-English-068a5aa5c9a9f80.37316414.pdf"
     ],
     "lastVerified": "2026-11-23",
-    "verificationStatus": "Needs verification: scheme is listed in official state scheme directory; detailed current rules, benefit and documents not confirmed."
+    "verificationStatus": "Benefit and rule details are reported in the CAG’s 2025 performance audit; confirm the latest rules, subscription and application process with the Board."
+  },
+  {
+    "id": "nps-traders",
+    "name": "National Pension Scheme for Traders and Self-Employed Persons",
+    "nameKn": null,
+    "category": "Pension",
+    "governmentLevel": "Central",
+    "state": "All India",
+    "description": "A voluntary contributory pension scheme for eligible small traders, shopkeepers and self-employed people.",
+    "benefits": [
+      "Assured monthly pension of ₹3,000 from age 60, subject to scheme conditions",
+      "Government contributes an amount equal to the subscriber’s contribution"
+    ],
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 40,
+      "occupations": ["small-trader", "self-employed", "street-vendor"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Annual turnover must not exceed ₹1.5 crore",
+        "Not an income-tax payer",
+        "Not covered by EPFO, ESIC, NPS or PM-SYM; confirm exclusions under current rules"
+      ]
+    },
+    "contribution": "The monthly contribution is based on entry age; the Ministry reports a range of ₹55–₹200. Confirm the current amount with an authorised enrolment centre.",
+    "documents": [
+      "Aadhaar",
+      "Savings bank or Jan Dhan account with IFSC",
+      "Mobile number",
+      "Business or turnover information requested during enrolment"
+    ],
+    "applicationSteps": [
+      "Check the current eligibility rules at the official Maandhan portal or a Common Service Centre.",
+      "Confirm your entry-age contribution and required proof of business details.",
+      "Complete enrolment through an authorised channel and retain the acknowledgement."
+    ],
+    "officialUrl": "https://maandhan.in/",
+    "sources": [
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1594477&lang=2&reg=48",
+      "https://www.labour.gov.in/static/uploads/2025/06/91e0210df5cca17eb6579e88e9a9c690.pdf",
+      "https://maandhan.in/"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "Core eligibility and benefits checked against Ministry of Labour & Employment and PIB sources; confirm current rules before enrolment."
+  },
+  {
+    "id": "pm-kmy",
+    "name": "Pradhan Mantri Kisan Maandhan Yojana",
+    "nameKn": null,
+    "category": "Pension",
+    "governmentLevel": "Central",
+    "state": "All India",
+    "description": "A voluntary contributory pension scheme for eligible small and marginal landholding farmers.",
+    "benefits": [
+      "Minimum assured pension of ₹3,000 per month from age 60, subject to scheme rules",
+      "Spouse may receive family pension of ₹1,500 per month if the subscriber dies while receiving pension"
+    ],
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 40,
+      "occupations": ["farmer"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Small or marginal farmer with cultivable landholding up to two hectares recorded in state or UT land records as of 1 August 2019",
+        "Not covered by NPS, EPFO, ESIC, PM-SYM or PM-LVM and not an income-tax payer; check the full exclusion list in current guidelines"
+      ]
+    },
+    "contribution": "Monthly contribution ranges from ₹55 to ₹200 depending on entry age, matched equally by the Central Government; confirm the current contribution chart.",
+    "documents": [
+      "Aadhaar",
+      "Savings bank account details",
+      "Landholding information or records requested by the authorised enrolment channel"
+    ],
+    "applicationSteps": [
+      "Check the scheme guidelines and exclusions on the official PM-KMY or Maandhan portal.",
+      "Contact a Common Service Centre or authorised enrolment channel to verify land-record eligibility.",
+      "Confirm the contribution amount based on entry age before enrolling."
+    ],
+    "officialUrl": "https://pmkmy.gov.in/scheme/pmkmy",
+    "sources": [
+      "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=159959&lang=1&reg=48",
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2152564&lang=2&reg=48",
+      "https://pmkisan.gov.in/Documents/PM-KMY%20-%20Operational%20Guidelines.pdf"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "Eligibility and benefits checked against Ministry of Agriculture & Farmers Welfare and PIB sources; verify land records and the full exclusion list before enrolment."
+  },
+  {
+    "id": "karnataka-sandhya-suraksha",
+    "name": "Karnataka Sandhya Suraksha Yojane",
+    "nameKn": "ಸಂಧ್ಯಾ ಸುರಕ್ಷಾ ಯೋಜನೆ",
+    "category": "Pension",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "A Karnataka social pension programme for qualifying older people, including workers in selected unorganised occupations. The latest benefit amount and rules should be confirmed with the state before applying.",
+    "benefits": [
+      "Karnataka’s 2023–24 annual report lists a pension of ₹1,200 per month; current amount needs confirmation"
+    ],
+    "eligibility": {
+      "minAge": 65,
+      "maxAge": null,
+      "occupations": [],
+      "incomeLimit": null,
+      "otherConditions": [
+        "The 2023–24 state report lists small or marginal farmers, agricultural labourers, weavers, fishermen and other unorganised workers, excluding building and construction workers",
+        "The report lists an annual income limit of ₹32,000; verify the current limit",
+        "The report excludes people already receiving another pension; confirm current rules"
+      ]
+    },
+    "contribution": "No contribution is listed in the Karnataka report reviewed; confirm current terms with the Revenue Department.",
+    "documents": [
+      "Age and identity proof",
+      "Income and occupation evidence requested by the local authority",
+      "Bank account details; confirm the current document list"
+    ],
+    "applicationSteps": [
+      "Contact the local Revenue Department or service centre to confirm that the scheme is open and check current criteria.",
+      "Ask for the current document list and application route.",
+      "Keep the application acknowledgement and confirm the decision with the department."
+    ],
+    "officialUrl": "https://revenue.karnataka.gov.in/",
+    "sources": ["https://revenue.karnataka.gov.in/uploads/media_to_upload1712395448.pdf"],
+    "lastVerified": "2023–24 report",
+    "verificationStatus": "Historical details from Karnataka’s 2023–24 Revenue Department annual report; current amount, income threshold and operating rules require confirmation."
+  },
+  {
+    "id": "karnataka-ignoaps",
+    "name": "Indira Gandhi National Old Age Pension (Karnataka)",
+    "nameKn": null,
+    "category": "Pension",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Karnataka’s implementation of the national old-age pension for eligible older people from BPL families. Amounts and income rules in this record are from the state’s 2023–24 report and may have changed.",
+    "benefits": [
+      "The 2023–24 state report lists ₹600 per month for ages 60–64 and ₹1,200 per month from age 65; verify current amounts"
+    ],
+    "eligibility": {
+      "minAge": 60,
+      "maxAge": null,
+      "occupations": [],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Belong to a Below Poverty Line family",
+        "The 2023–24 state report lists an annual income limit of ₹32,000; verify the current limit",
+        "Confirm how other pension benefits affect eligibility under current rules"
+      ]
+    },
+    "contribution": "No contribution is listed in the Karnataka report reviewed; confirm current terms with the Revenue Department.",
+    "documents": [
+      "Age and identity proof",
+      "BPL or household eligibility proof requested by the local authority",
+      "Bank account details; confirm the current document list"
+    ],
+    "applicationSteps": [
+      "Contact the local Revenue Department or service centre to confirm current eligibility and pension amounts.",
+      "Ask which household and identity documents are accepted.",
+      "Submit through the current state application route and keep the acknowledgement."
+    ],
+    "officialUrl": "https://revenue.karnataka.gov.in/",
+    "sources": ["https://revenue.karnataka.gov.in/uploads/media_to_upload1712395448.pdf"],
+    "lastVerified": "2023–24 report",
+    "verificationStatus": "Historical details from Karnataka’s 2023–24 Revenue Department annual report; current benefit and eligibility amounts require confirmation."
+  },
+  {
+    "id": "pmmvy",
+    "name": "Pradhan Mantri Matru Vandana Yojana",
+    "nameKn": null,
+    "category": "Health-related benefits",
+    "governmentLevel": "Central",
+    "state": "All India",
+    "description": "A maternity benefit scheme that provides eligible pregnant and lactating women with cash support, including partial compensation for wage loss.",
+    "benefits": [
+      "₹5,000 for an eligible first child, paid in instalments subject to scheme conditions",
+      "₹6,000 for an eligible second child if the child is a girl, subject to scheme conditions"
+    ],
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 55,
+      "occupations": [],
+      "incomeLimit": null,
+      "otherConditions": [
+        "For first-child support, the beneficiary must meet at least one current social or economic eligibility category, such as holding an e-Shram card, BPL or NFSA ration card, MGNREGA job card, or having annual family income below ₹8 lakh",
+        "Second-child support applies only when the second child is a girl",
+        "Minimum age is 18 years and 7 months at childbirth; apply within the scheme deadline and confirm current state implementation"
+      ]
+    },
+    "contribution": "No contribution is required; the benefit is paid by direct benefit transfer after required conditions are met.",
+    "documents": [
+      "Beneficiary Aadhaar number",
+      "Mother and Child Protection (MCP) or Reproductive and Child Health (RCH) card",
+      "One document proving an eligible social or economic category",
+      "Aadhaar-linked bank or post office account"
+    ],
+    "applicationSteps": [
+      "Contact an Anganwadi or ASHA worker, or check the official PMMVY portal.",
+      "Confirm which eligibility proof and pregnancy or immunisation conditions apply.",
+      "Submit within the scheme deadline and keep the application reference."
+    ],
+    "officialUrl": "https://pmmvy.wcd.gov.in/",
+    "sources": [
+      "https://www.wcd.gov.in/offerings/pradhan-mantri-matru-vandana-yojana",
+      "https://www.wcd.gov.in/women/pradhan-mantri-matru-vandana-yojna"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "Benefits and eligibility groups checked against Ministry of Women and Child Development information; exact conditions, deadlines and state implementation should be confirmed before applying."
+  },
+  {
+    "id": "karnataka-bocw-education",
+    "name": "Karnataka BOCW Education Assistance",
+    "nameKn": null,
+    "category": "Worker and family support",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Education assistance for eligible children of workers registered with Karnataka’s Building and Other Construction Workers Welfare Board.",
+    "benefits": [
+      "Financial assistance for a registered construction worker’s eligible son or daughter; current amounts depend on the course and Board rules"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": ["construction"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Parent must be registered with the Karnataka BOCW Welfare Board",
+        "Course, academic progress, number of eligible children and application timing may affect eligibility; confirm current rules"
+      ]
+    },
+    "contribution": "No worker contribution amount is listed for this assistance; confirm current Board requirements.",
+    "documents": [
+      "Active Karnataka BOCW beneficiary registration",
+      "Student identity and current course or enrolment records",
+      "Bank details and other documents requested by the Board"
+    ],
+    "applicationSteps": [
+      "Check the education assistance section of the Karnataka BOCW Welfare Board portal.",
+      "Confirm the current course-wise benefit, conditions and application dates.",
+      "Apply through the Board’s current online or assisted service and retain the acknowledgement."
+    ],
+    "officialUrl": "https://karbwwb.karnataka.gov.in/",
+    "sources": [
+      "https://karbwwb.karnataka.gov.in/",
+      "https://cag.gov.in/uploads/download_audit_report/2025/PA-on-Welfare-of-Building-and-Other-Construction-workers-in-Karnataka-English-068a5aa5c9a9f80.37316414.pdf"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "Scheme existence is listed in the CAG’s 2025 performance audit; current benefit rates and detailed eligibility need confirmation with the Board."
+  },
+  {
+    "id": "karnataka-bocw-maternity",
+    "name": "Karnataka BOCW Maternity Assistance",
+    "nameKn": null,
+    "category": "Health-related benefits",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Maternity assistance for eligible registered women construction workers under the Karnataka BOCW Welfare Board.",
+    "benefits": [
+      "Financial assistance linked to childbirth; confirm the current amount, child limit and conditions with the Board"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": ["construction"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Applicant must be a registered woman construction worker with the Karnataka BOCW Welfare Board",
+        "The Board may require a separate application for maternity assistance and additional child-support benefits; confirm current deadlines"
+      ]
+    },
+    "contribution": "No contribution amount is listed for this assistance; confirm current Board requirements.",
+    "documents": [
+      "Active Karnataka BOCW beneficiary registration",
+      "Pregnancy or childbirth records requested by the Board",
+      "Bank details and other documents requested by the Board"
+    ],
+    "applicationSteps": [
+      "Contact the Karnataka BOCW Welfare Board or its service centre before applying.",
+      "Confirm the current maternity amount, child-support options and application deadlines.",
+      "Submit the required documents through the current Board process."
+    ],
+    "officialUrl": "https://karbwwb.karnataka.gov.in/",
+    "sources": [
+      "https://karbwwb.karnataka.gov.in/",
+      "https://cag.gov.in/uploads/download_audit_report/2025/PA-on-Welfare-of-Building-and-Other-Construction-workers-in-Karnataka-English-068a5aa5c9a9f80.37316414.pdf"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "Scheme existence and implementation issues are described in the CAG’s 2025 performance audit; confirm current benefit and eligibility with the Board."
+  },
+  {
+    "id": "karnataka-bocw-funeral",
+    "name": "Karnataka BOCW Funeral Assistance",
+    "nameKn": null,
+    "category": "Worker and family support",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Assistance towards funeral expenses following the death of a registered Karnataka construction worker.",
+    "benefits": [
+      "Funeral assistance for a qualifying registered worker’s family; current amount and claim rules need confirmation"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": ["construction"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "The deceased worker must meet the Karnataka BOCW Welfare Board’s beneficiary requirements",
+        "The claimant, time limit and required death or relationship records must be confirmed with the Board"
+      ]
+    },
+    "contribution": "No contribution amount is listed for this assistance; confirm current Board requirements.",
+    "documents": [
+      "Worker’s BOCW registration details",
+      "Death record and claimant relationship documents requested by the Board",
+      "Claimant bank details"
+    ],
+    "applicationSteps": [
+      "Contact the Karnataka BOCW Welfare Board or its service centre promptly after the death.",
+      "Confirm the current claimant rules, time limit and document list.",
+      "Submit the claim through the current Board process and keep the acknowledgement."
+    ],
+    "officialUrl": "https://karbwwb.karnataka.gov.in/",
+    "sources": [
+      "https://karbwwb.karnataka.gov.in/",
+      "https://cag.gov.in/uploads/download_audit_report/2025/PA-on-Welfare-of-Building-and-Other-Construction-workers-in-Karnataka-English-068a5aa5c9a9f80.37316414.pdf"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "Scheme existence is listed in the CAG’s 2025 performance audit; current benefit amount, claimant and deadline need confirmation with the Board."
+  },
+  {
+    "id": "karnataka-bocw-major-medical",
+    "name": "Karnataka BOCW Major Medical Assistance",
+    "nameKn": null,
+    "category": "Health-related benefits",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Medical-expense assistance for treatment of major ailments for eligible registered construction workers and dependents.",
+    "benefits": [
+      "The CAG’s 2025 performance audit describes assistance up to ₹2 lakh per application, subject to CGHS rates and Board approval"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": ["construction"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Applicant must be a registered Karnataka BOCW beneficiary; assistance can cover the worker or dependents as described in the audit report",
+        "Treatment must meet current Board rules and medical-document requirements; confirm eligible conditions and hospitals"
+      ]
+    },
+    "contribution": "No contribution amount is listed for this medical assistance; confirm current Board requirements.",
+    "documents": [
+      "Active Karnataka BOCW beneficiary registration",
+      "Medical diagnosis, treatment estimate and bills or certificates required by the Board",
+      "Bank details and dependent relationship proof if applicable"
+    ],
+    "applicationSteps": [
+      "Contact the Karnataka BOCW Welfare Board before incurring or claiming major treatment expenses.",
+      "Confirm the current covered conditions, recognised hospitals, rate limits and document checklist.",
+      "Submit the claim and medical records through the current Board process."
+    ],
+    "officialUrl": "https://karbwwb.karnataka.gov.in/",
+    "sources": [
+      "https://karbwwb.karnataka.gov.in/",
+      "https://cag.gov.in/uploads/download_audit_report/2025/PA-on-Welfare-of-Building-and-Other-Construction-workers-in-Karnataka-English-068a5aa5c9a9f80.37316414.pdf"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "Up-to-₹2-lakh limit is described in the CAG’s 2025 performance audit; confirm current limits, covered treatment and process with the Board."
+  },
+  {
+    "id": "karnataka-bocw-disability-pension",
+    "name": "Karnataka BOCW Disability Pension",
+    "nameKn": null,
+    "category": "Pension",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Disability pension and related assistance for eligible registered construction workers under Karnataka’s BOCW Welfare Board.",
+    "benefits": [
+      "Disability pension or assistance may be available; current amount and disability assessment rules need confirmation"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": ["construction"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Applicant must be registered with the Karnataka BOCW Welfare Board",
+        "Disability assessment, severity threshold, contribution history and interaction with other benefits must be confirmed with the Board"
+      ]
+    },
+    "contribution": "No contribution amount is listed for this benefit; confirm current Board requirements.",
+    "documents": [
+      "Active Karnataka BOCW beneficiary registration",
+      "Disability certificate and medical records requested by the Board",
+      "Bank details and identity proof"
+    ],
+    "applicationSteps": [
+      "Contact the Karnataka BOCW Welfare Board or service centre to check current disability-pension rules.",
+      "Confirm assessment requirements, benefit amount and document checklist.",
+      "Submit the application through the current Board process and retain the acknowledgement."
+    ],
+    "officialUrl": "https://karbwwb.karnataka.gov.in/",
+    "sources": [
+      "https://karbwwb.karnataka.gov.in/",
+      "https://cag.gov.in/uploads/download_audit_report/2025/PA-on-Welfare-of-Building-and-Other-Construction-workers-in-Karnataka-English-068a5aa5c9a9f80.37316414.pdf"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "Disability pension is listed in the CAG’s 2025 performance audit; current amount and detailed eligibility need confirmation with the Board."
+  },
+  {
+    "id": "pmjay-general",
+    "name": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana",
+    "nameKn": null,
+    "category": "Health-related benefits",
+    "governmentLevel": "Central",
+    "state": "All India",
+    "description": "Cashless hospital treatment for eligible low-income families at empanelled hospitals. Household eligibility is based on the official beneficiary lists and must be checked individually.",
+    "benefits": [
+      "Health cover up to ₹5 lakh per eligible family per year for hospital treatment, subject to scheme rules"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": [],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Eligibility depends on the official beneficiary database or applicable state expansion; verify by name or family details on the official portal"
+      ]
+    },
+    "contribution": "No beneficiary premium is listed in the official beneficiary letter; confirm current enrolment rules.",
+    "documents": [
+      "Identity and household documents requested during eligibility verification"
+    ],
+    "applicationSteps": [
+      "Check eligibility on the official beneficiary portal, at a Common Service Centre or at an empanelled hospital.",
+      "Complete the official identity verification and obtain an Ayushman card if eligible.",
+      "Confirm the hospital and package coverage before treatment."
+    ],
+    "officialUrl": "https://beneficiary.nha.gov.in/",
+    "sources": [
+      "https://nha.gov.in/img/resources/Adhikar-Patra.pdf",
+      "https://beneficiary.nha.gov.in/"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "Coverage checked against National Health Authority information; eligibility is household-list based and must be confirmed on the official channel. This is separate from the age-based 70+ entry."
+  },
+  {
+    "id": "karnataka-ignwps",
+    "name": "Indira Gandhi National Widow Pension Scheme (Karnataka)",
+    "nameKn": null,
+    "category": "Pension",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Monthly pension support for eligible widows from low-income households in Karnataka.",
+    "benefits": [
+      "Karnataka’s 2023–24 report lists ₹800 per month; confirm the current amount with the Revenue Department"
+    ],
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 64,
+      "occupations": [],
+      "incomeLimit": null,
+      "otherConditions": [
+        "The state report lists a BPL-family condition and widowhood; current age and income criteria must be confirmed with the Revenue Department"
+      ]
+    },
+    "contribution": "No contribution is listed; this is a social pension.",
+    "documents": [
+      "Age and identity proof",
+      "Widowhood and BPL or household eligibility proof requested by the local authority",
+      "Bank account details"
+    ],
+    "applicationSteps": [
+      "Contact the local Revenue Department or service centre to confirm current criteria and documents.",
+      "Apply through the current state process and keep the acknowledgement."
+    ],
+    "officialUrl": "https://revenue.karnataka.gov.in/",
+    "sources": [
+      "https://revenue.karnataka.gov.in/uploads/media_to_upload1712395448.pdf",
+      "https://rural.gov.in/sites/default/files/NSAP%20Social%20Audit%20Guidelines_english-2023_08022024.pdf"
+    ],
+    "lastVerified": "2023–24 report",
+    "verificationStatus": "Historical amount and eligibility details from Karnataka’s 2023–24 Revenue Department report; confirm current terms before applying."
+  },
+  {
+    "id": "karnataka-disabled-pension",
+    "name": "Karnataka Disabled Pension Scheme",
+    "nameKn": null,
+    "category": "Pension",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Social pension support for eligible people with disabilities in Karnataka, including qualifying low-income residents.",
+    "benefits": [
+      "Karnataka’s 2023–24 report lists ₹800 monthly for disability of 40% or more, ₹1,400 for disability above 75%, and ₹2,000 for people with intellectual disability above 75%; verify current rates"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": [],
+      "incomeLimit": null,
+      "otherConditions": [
+        "The state report lists disability percentage and BPL or income conditions; the applicable category and current certification rules must be confirmed"
+      ]
+    },
+    "contribution": "No contribution is listed; this is a social pension.",
+    "documents": [
+      "Identity and residence proof",
+      "Disability certificate",
+      "Income or BPL documents and bank details requested by the Revenue Department"
+    ],
+    "applicationSteps": [
+      "Contact the local Revenue Department or service centre to identify the correct disability pension category.",
+      "Confirm the current disability threshold, rate and supporting documents before applying."
+    ],
+    "officialUrl": "https://revenue.karnataka.gov.in/",
+    "sources": ["https://revenue.karnataka.gov.in/uploads/media_to_upload1712395448.pdf"],
+    "lastVerified": "2023–24 report",
+    "verificationStatus": "Historical rates from Karnataka’s 2023–24 Revenue Department report; current rates and category requirements need confirmation."
+  },
+  {
+    "id": "karnataka-nfbs",
+    "name": "National Family Benefit Scheme (Karnataka)",
+    "nameKn": null,
+    "category": "Worker and family support",
+    "governmentLevel": "Central",
+    "state": "Karnataka",
+    "description": "One-time financial assistance to an eligible BPL household after the death of its principal breadwinner.",
+    "benefits": [
+      "Karnataka’s 2023–24 report lists a one-time payment of ₹20,000; confirm current rules and amount"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": [],
+      "incomeLimit": null,
+      "otherConditions": [
+        "The deceased breadwinner must have been within the scheme age range and the household must meet BPL criteria; the surviving applicant and deadline are subject to local verification"
+      ]
+    },
+    "contribution": "No contribution is required.",
+    "documents": [
+      "Death certificate",
+      "BPL or household eligibility proof",
+      "Applicant identity and bank details"
+    ],
+    "applicationSteps": [
+      "Contact the local Revenue Department or service centre promptly to confirm the deadline.",
+      "Request the current claimant and document checklist.",
+      "Submit through the current state process and keep the acknowledgement."
+    ],
+    "officialUrl": "https://revenue.karnataka.gov.in/",
+    "sources": [
+      "https://revenue.karnataka.gov.in/uploads/media_to_upload1712395448.pdf",
+      "https://rural.gov.in/sites/default/files/NSAP%20Social%20Audit%20Guidelines_english-2023_08022024.pdf"
+    ],
+    "lastVerified": "2023–24 report",
+    "verificationStatus": "The scheme and one-time amount are listed in Karnataka’s 2023–24 report; confirm current rules and filing deadline with the Revenue Department."
+  },
+  {
+    "id": "jsy",
+    "name": "Janani Suraksha Yojana",
+    "nameKn": null,
+    "category": "Health-related benefits",
+    "governmentLevel": "Central",
+    "state": "All India",
+    "description": "A maternity support programme that promotes institutional delivery and links eligible pregnant women to cash assistance and health services.",
+    "benefits": [
+      "Cash assistance for eligible institutional delivery; the amount and qualifying group depend on state category and delivery setting"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": [],
+      "incomeLimit": null,
+      "otherConditions": [
+        "In Karnataka, eligibility is based on the high-performing-state criteria, including BPL or SC/ST status and an eligible institutional delivery; confirm current local rules"
+      ]
+    },
+    "contribution": "No contribution is required.",
+    "documents": [
+      "Pregnancy and institutional delivery records",
+      "Identity and bank details requested by the health facility or ASHA worker"
+    ],
+    "applicationSteps": [
+      "Register the pregnancy with an Anganwadi, ASHA worker or health facility.",
+      "Confirm the current eligibility and documents with the facility before delivery.",
+      "Follow the facility’s process to claim the cash assistance."
+    ],
+    "officialUrl": "https://nhm.gov.in/",
+    "sources": ["https://www.mohfw.gov.in/sites/default/files/03Chapter.pdf"],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "Scheme and eligibility framework checked against Ministry of Health and Family Welfare information; confirm current amounts and Karnataka implementation locally."
+  },
+  {
+    "id": "pmmsy-fisher-gais",
+    "name": "PMMSY Group Accident Insurance Scheme for Fishers",
+    "nameKn": null,
+    "category": "Accident Insurance",
+    "governmentLevel": "Central",
+    "state": "All India",
+    "description": "Group accident insurance for fishers, fish workers, fish farmers and people directly involved in fisheries-related work.",
+    "benefits": [
+      "₹5 lakh for accidental death or permanent total disability",
+      "₹2.5 lakh for permanent partial disability",
+      "₹25,000 for accidental hospitalisation, according to the Department of Fisheries report reviewed"
+    ],
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 70,
+      "occupations": ["fisher"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Work must be directly related to fishing or fisheries; confirm current enrolment route and insurance terms with the Fisheries Department or cooperative"
+      ]
+    },
+    "contribution": "The premium is shared by the Centre and State under scheme guidelines; verify current coverage period and terms.",
+    "documents": [
+      "Proof of fisher or fisheries-related work",
+      "Identity and bank details requested by the State Fisheries Department or cooperative"
+    ],
+    "applicationSteps": [
+      "Contact the Karnataka Fisheries Department, a fishing cooperative or authorised registration centre.",
+      "Confirm whether you are covered for the current insurance period and keep the enrolment proof."
+    ],
+    "officialUrl": "https://pmmsy.dof.gov.in/",
+    "sources": [
+      "https://www.dof.gov.in/static/uploads/2025/08/4686b6bf87e0a1844293531a7ad72c74.pdf",
+      "https://www.dof.gov.in/static/uploads/2025/09/d1b77349ab2f9cb82f35bf7855bb4735.pdf"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "Coverage and age range checked against Department of Fisheries annual reports; confirm the active policy period and local enrolment details."
+  },
+  {
+    "id": "karnataka-ambedkar-karmika-sahaya-hasta",
+    "name": "Ambedkar Karmika Sahaya Hasta Scheme",
+    "nameKn": null,
+    "category": "Worker and family support",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Registration and social security assistance for workers in listed unorganised occupations and some traditional or nomadic occupations in Karnataka.",
+    "benefits": [
+      "Accidental death compensation of ₹1 lakh to the nominee",
+      "Up to ₹1 lakh for permanent or partial disability and up to ₹50,000 hospital expense reimbursement",
+      "₹10,000 for funeral expenses after a beneficiary’s natural death, as listed in Karnataka’s 2025–26 survey"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": [],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Worker must fall within a listed occupation or community and register with the Karnataka State Unorganised Workers Social Security Board; confirm the current list and claim rules"
+      ]
+    },
+    "contribution": "The 2025–26 Karnataka survey describes free registration.",
+    "documents": [
+      "Identity and residence proof",
+      "Occupation or community proof requested by the Board",
+      "Nominee and bank details"
+    ],
+    "applicationSteps": [
+      "Contact a B.R. Ambedkar Karmika Seva Kendra or the Unorganised Workers Social Security Board.",
+      "Confirm registration and the current list of covered occupations.",
+      "Ask for the correct accident, hospital or funeral claim form and deadlines."
+    ],
+    "officialUrl": "https://ksuwssb.karnataka.gov.in/english",
+    "sources": [
+      "https://ksuwssb.karnataka.gov.in/english",
+      "https://data.opencity.in/dataset/699b7b8d-3813-4e44-8d70-cfdf1414ee85/resource/ee584e22-2c78-4a54-9054-74db776a9a53/download/economic_survey_2025-26_english_finalmpdf_1772796504.pdf"
+    ],
+    "lastVerified": "2025–26 survey",
+    "verificationStatus": "Benefits are reported in Karnataka’s 2025–26 Economic Survey; confirm current occupation list, registration and claim conditions with the Board."
+  },
+  {
+    "id": "karnataka-gig-worker-insurance",
+    "name": "Karnataka State Gig Workers Insurance Scheme",
+    "nameKn": null,
+    "category": "Accident Insurance",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Life and accident insurance cover for eligible platform-based gig workers in Karnataka.",
+    "benefits": [
+      "₹2 lakh life insurance cover and ₹2 lakh accident insurance cover, as listed in Karnataka’s 2025–26 survey"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": ["gig-worker"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "The survey describes registration for e-commerce-sector gig workers through Seva Sindhu; confirm the current eligible platforms, activity requirements and policy period"
+      ]
+    },
+    "contribution": "The survey does not list a worker premium; confirm current terms during registration.",
+    "documents": [
+      "Identity and residence proof",
+      "Proof of platform-based gig work",
+      "Bank and nominee details requested during registration"
+    ],
+    "applicationSteps": [
+      "Check the Seva Sindhu portal or the Karnataka State Unorganised Workers Social Security Board for current registration.",
+      "Confirm the active policy dates, eligible platforms and claims process."
+    ],
+    "officialUrl": "https://ksuwssb.karnataka.gov.in/english",
+    "sources": [
+      "https://ksuwssb.karnataka.gov.in/english",
+      "https://data.opencity.in/dataset/699b7b8d-3813-4e44-8d70-cfdf1414ee85/resource/ee584e22-2c78-4a54-9054-74db776a9a53/download/economic_survey_2025-26_english_finalmpdf_1772796504.pdf"
+    ],
+    "lastVerified": "2025–26 survey",
+    "verificationStatus": "Coverage is reported in Karnataka’s 2025–26 Economic Survey; verify current platform eligibility, enrolment status and policy dates with the Board."
+  },
+  {
+    "id": "karnataka-transport-worker-accident",
+    "name": "Karnataka Private Commercial Transport Workers Accident Benefit Scheme",
+    "nameKn": null,
+    "category": "Accident Insurance",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Accident assistance for private commercial transport drivers, conductors and cleaners and their families.",
+    "benefits": [
+      "₹5 lakh in case of accidental death",
+      "Up to ₹2 lakh for permanent disability",
+      "Hospital expense reimbursement up to ₹1 lakh for permanent or temporary disability, according to Karnataka’s 2024–25 Economic Survey"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": ["transport-worker"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "The survey describes coverage for private commercial vehicle drivers and extension to conductors and cleaners; confirm current worker registration, vehicle and claim requirements"
+      ]
+    },
+    "contribution": "No worker contribution amount is listed in the survey; confirm current scheme terms.",
+    "documents": [
+      "Proof of transport work and vehicle or employer details",
+      "Accident, police and medical records as applicable",
+      "Identity, nominee and bank details"
+    ],
+    "applicationSteps": [
+      "Contact the Karnataka State Unorganised Workers Social Security Board or Labour Department.",
+      "Confirm registration and the claim steps for the type of accident or injury.",
+      "Submit records within the current deadline and retain the claim number."
+    ],
+    "officialUrl": "https://ksuwssb.karnataka.gov.in/english",
+    "sources": [
+      "https://ksuwssb.karnataka.gov.in/english",
+      "https://data.opencity.in/dataset/de112131-ef56-4c2a-a001-da90cc0d06ca/resource/d652fb65-fde9-4c2b-a021-256c1bd7b73a/download/economic-survey-2024-25_compressed.pdf",
+      "https://kodagu.nic.in/en/department-of-labour/"
+    ],
+    "lastVerified": "2024–25 survey",
+    "verificationStatus": "Benefit amounts are described in Karnataka’s 2024–25 Economic Survey; confirm current registration and claim rules with the Board."
+  },
+  {
+    "id": "karnataka-transport-worker-family-education",
+    "name": "Karnataka Transport Worker Family Education Assistance",
+    "nameKn": null,
+    "category": "Worker and family support",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Education assistance for children of eligible commercial transport workers who died or became permanently disabled in an accident.",
+    "benefits": [
+      "The Karnataka district Labour Department lists education assistance for two children of qualifying drivers, conductors or cleaners; current amount and academic conditions need confirmation"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": ["transport-worker"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "A parent must meet the accident-scheme death or permanent-disability conditions; confirm child, course and renewal criteria with the Board"
+      ]
+    },
+    "contribution": "No contribution amount is listed; confirm current Board requirements.",
+    "documents": [
+      "Worker registration and accident claim records",
+      "Child relationship and current enrolment proof",
+      "Bank details requested by the Board"
+    ],
+    "applicationSteps": [
+      "Contact the district Labour Department or Karnataka State Unorganised Workers Social Security Board.",
+      "Confirm current eligibility, amount, renewal and documents before applying."
+    ],
+    "officialUrl": "https://ksuwssb.karnataka.gov.in/english",
+    "sources": [
+      "https://kodagu.nic.in/en/department-of-labour/",
+      "https://ksuwssb.karnataka.gov.in/english"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "The Government of Karnataka district Labour Department lists this benefit; confirm the current amount and detailed criteria with the Board."
+  },
+  {
+    "id": "lws-beedi-health",
+    "name": "Labour Welfare Scheme Health Support for Beedi, Cine and Non-Coal Mine Workers",
+    "nameKn": null,
+    "category": "Health-related benefits",
+    "governmentLevel": "Central",
+    "state": "All India",
+    "description": "Health services and specified treatment assistance for beedi workers and their families through the Ministry of Labour and Employment’s Labour Welfare Organisation.",
+    "benefits": [
+      "Care through Labour Welfare Organisation hospitals and dispensaries",
+      "The Ministry’s 2024–25 report lists specialised treatment assistance for specified critical illnesses, with disease-wise ceilings; verify the applicable ceiling and rules"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": ["beedi-worker", "cine-worker", "mine-worker"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Worker or dependent must meet the Labour Welfare Organisation’s current registration and treatment criteria; eligible hospitals and covered illnesses vary by benefit"
+      ]
+    },
+    "contribution": "No worker premium is described in the Ministry report.",
+    "documents": [
+      "Proof of beedi work and dependent relationship",
+      "Medical diagnosis, hospital records and bills requested by the Labour Welfare Organisation"
+    ],
+    "applicationSteps": [
+      "Contact the nearest Labour Welfare Organisation hospital, dispensary or regional office.",
+      "Confirm the covered treatment, hospital, reimbursement ceiling and documents before treatment where possible."
+    ],
+    "officialUrl": "https://labour.gov.in/",
+    "sources": [
+      "https://www.labour.gov.in/static/uploads/2025/06/91e0210df5cca17eb6579e88e9a9c690.pdf"
+    ],
+    "lastVerified": "2024–25 Ministry report",
+    "verificationStatus": "Current programme components are described in the Ministry of Labour & Employment Annual Report 2024–25; confirm the disease-specific benefit and current application process."
+  },
+  {
+    "id": "lws-beedi-scholarship",
+    "name": "Labour Welfare Scheme Scholarship for Beedi, Cine and Non-Coal Mine Workers’ Children",
+    "nameKn": null,
+    "category": "Worker and family support",
+    "governmentLevel": "Central",
+    "state": "All India",
+    "description": "Education scholarship for eligible children of beedi workers, administered through the National Scholarship Portal.",
+    "benefits": [
+      "Scholarships range by class and course; the Ministry reports support up to ₹25,000 per student per year"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": ["beedi-worker", "cine-worker", "mine-worker"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Applicant must be an eligible ward of a beedi worker and meet current course, academic and documentation requirements"
+      ]
+    },
+    "contribution": "No contribution is required.",
+    "documents": [
+      "Proof of beedi work and parent-child relationship",
+      "Student enrolment and academic records",
+      "Identity and bank details requested through the National Scholarship Portal"
+    ],
+    "applicationSteps": [
+      "Check the current Labour Welfare Scheme scholarship listing on the National Scholarship Portal.",
+      "Confirm course eligibility and the application window.",
+      "Submit the online application and retain its reference number."
+    ],
+    "officialUrl": "https://scholarships.gov.in/",
+    "sources": [
+      "https://www.labour.gov.in/static/uploads/2025/06/f556237557535aa3a78087bcdd8a2955.pdf",
+      "https://scholarships.gov.in/"
+    ],
+    "lastVerified": "2024–25 academic year",
+    "verificationStatus": "The Ministry reports disbursements for academic year 2024–25 and support up to ₹25,000; confirm current course-wise rates and deadlines on the portal."
+  },
+  {
+    "id": "karnataka-bocw-family-pension",
+    "name": "Karnataka BOCW Family Pension",
+    "nameKn": null,
+    "category": "Pension",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Family pension for the spouse of a deceased registered construction worker who was receiving the Karnataka BOCW pension.",
+    "benefits": [
+      "The CAG’s 2025 performance audit describes family pension at 50% of the worker’s pension; with the reported ₹3,000 pension, that is ₹1,500 per month, subject to current rules"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": ["construction"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "The CAG report describes eligibility for the spouse of a deceased registered worker drawing pension; confirm current documentation and continuation rules with the Board"
+      ]
+    },
+    "contribution": "No separate contribution amount is listed for the family pension; the worker’s Board subscription conditions may apply.",
+    "documents": [
+      "Worker’s BOCW registration and pension records",
+      "Death and spouse relationship proof",
+      "Bank details requested by the Board"
+    ],
+    "applicationSteps": [
+      "Contact the Karnataka BOCW Welfare Board or Labour Department after the pensioner’s death.",
+      "Confirm the current family-pension application and required records."
+    ],
+    "officialUrl": "https://karbwwb.karnataka.gov.in/",
+    "sources": [
+      "https://karbwwb.karnataka.gov.in/",
+      "https://cag.gov.in/uploads/download_audit_report/2025/PA-on-Welfare-of-Building-and-Other-Construction-workers-in-Karnataka-English-068a5aa5c9a9f80.37316414.pdf"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "Family pension rate and relationship to the BOCW pension are described in the CAG’s 2025 performance audit; confirm current rules with the Board."
+  },
+  {
+    "id": "karnataka-bocw-accident-assistance",
+    "name": "Karnataka BOCW Accident Death or Partial Disability Assistance",
+    "nameKn": null,
+    "category": "Worker and family support",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Accident-related financial assistance for a registered construction worker or eligible nominee in Karnataka.",
+    "benefits": [
+      "The CAG lists assistance in case of accident resulting in death or partial disablement; current amount and accident definitions must be confirmed with the Board"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": ["construction"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Worker or nominee must meet Board registration, accident and claim conditions; verify whether the incident must occur at work and the current claim deadline"
+      ]
+    },
+    "contribution": "No separate contribution amount is listed for the assistance; confirm current Board subscription requirements.",
+    "documents": [
+      "Active BOCW beneficiary details",
+      "Accident, disability or death records and nominee documents as applicable",
+      "Bank details"
+    ],
+    "applicationSteps": [
+      "Contact the Karnataka BOCW Welfare Board or Labour Department as soon as possible after the accident.",
+      "Confirm benefit amounts, claimants, required reports and deadlines.",
+      "Submit the claim through the current Board process."
+    ],
+    "officialUrl": "https://karbwwb.karnataka.gov.in/",
+    "sources": [
+      "https://karbwwb.karnataka.gov.in/",
+      "https://cag.gov.in/uploads/download_audit_report/2025/PA-on-Welfare-of-Building-and-Other-Construction-workers-in-Karnataka-English-068a5aa5c9a9f80.37316414.pdf"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "The benefit is listed in the CAG’s 2025 performance audit; amount, qualifying accident and current claim rules need confirmation with the Board."
+  },
+  {
+    "id": "karnataka-bocw-thayi-magu",
+    "name": "Karnataka BOCW Thayi Magu Sahaya Hastha",
+    "nameKn": null,
+    "category": "Worker and family support",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Child nutrition and early support for the child of an eligible registered woman construction worker.",
+    "benefits": [
+      "The CAG report describes nutrition support for a child up to age three; confirm the current assistance amount and application schedule"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": ["construction"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "The registered woman worker must meet the Board’s maternity and child-support conditions; the CAG noted that separate applications may be required and renewal rules should be checked"
+      ]
+    },
+    "contribution": "No contribution amount is listed for this child-support benefit; confirm current Board requirements.",
+    "documents": [
+      "Active BOCW registration",
+      "Child birth and age records",
+      "Bank and identity details requested by the Board"
+    ],
+    "applicationSteps": [
+      "Ask the Karnataka BOCW Welfare Board about both maternity and Thayi Magu benefits.",
+      "Confirm whether a new application or renewal is required for each year and the child’s age limit.",
+      "Submit the documents through the current Board process."
+    ],
+    "officialUrl": "https://karbwwb.karnataka.gov.in/",
+    "sources": [
+      "https://karbwwb.karnataka.gov.in/",
+      "https://cag.gov.in/uploads/download_audit_report/2025/PA-on-Welfare-of-Building-and-Other-Construction-workers-in-Karnataka-English-068a5aa5c9a9f80.37316414.pdf"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "The scheme and up-to-three-year support period are described in the CAG’s 2025 performance audit; confirm current benefit and renewal requirements with the Board."
+  },
+  {
+    "id": "karnataka-bocw-permanent-disability-assistance",
+    "name": "Karnataka BOCW Permanent Disability Assistance",
+    "nameKn": null,
+    "category": "Worker and family support",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "A Board assistance benefit for a registered construction worker with qualifying permanent disability, separate from the Board’s disability pension.",
+    "benefits": [
+      "The CAG lists assistance for permanent disability; current amount, disability threshold and whether it is paid alongside a pension need confirmation"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": ["construction"],
+      "incomeLimit": null,
+      "otherConditions": [
+        "Worker must meet Karnataka BOCW registration and disability-assessment rules; confirm the current threshold and interaction with disability pension"
+      ]
+    },
+    "contribution": "No separate contribution amount is listed; confirm current Board subscription requirements.",
+    "documents": [
+      "Active BOCW beneficiary details",
+      "Disability certificate and treatment records",
+      "Identity and bank details"
+    ],
+    "applicationSteps": [
+      "Contact the Karnataka BOCW Welfare Board or Labour Department to confirm which disability benefit applies.",
+      "Request current eligibility, benefit amount and supporting-document requirements.",
+      "Submit through the Board’s current process and retain the acknowledgement."
+    ],
+    "officialUrl": "https://karbwwb.karnataka.gov.in/",
+    "sources": [
+      "https://karbwwb.karnataka.gov.in/",
+      "https://cag.gov.in/uploads/download_audit_report/2025/PA-on-Welfare-of-Building-and-Other-Construction-workers-in-Karnataka-English-068a5aa5c9a9f80.37316414.pdf"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "The CAG’s 2025 performance audit lists permanent-disability assistance; current amount and rules need confirmation with the Board."
+  },
+  {
+    "id": "karnataka-newspaper-milk-worker-benefits",
+    "name": "Karnataka Newspaper and Milk Distribution Workers Accident and Medical Assistance",
+    "nameKn": null,
+    "category": "Accident Insurance",
+    "governmentLevel": "Karnataka",
+    "state": "Karnataka",
+    "description": "Accident and medical assistance for eligible newspaper and milk distribution workers in Karnataka.",
+    "benefits": [
+      "₹2 lakh for accidental death",
+      "Medical assistance up to ₹1 lakh",
+      "₹10,000 for natural death, with funeral expenses covered, as reported in the Karnataka Economic Survey 2025–26"
+    ],
+    "eligibility": {
+      "minAge": null,
+      "maxAge": null,
+      "occupations": [
+        "distribution-worker"
+      ],
+      "incomeLimit": null,
+      "otherConditions": [
+        "The worker must meet the Board’s registration and scheme conditions; confirm covered work, claim limits and documents with the Board"
+      ]
+    },
+    "contribution": "No worker contribution amount is listed in the Economic Survey; confirm current terms with the Board.",
+    "documents": [
+      "Proof of newspaper or milk distribution work",
+      "Accident, medical or death records as applicable",
+      "Identity, nominee and bank details requested by the Board"
+    ],
+    "applicationSteps": [
+      "Contact the Karnataka State Unorganised Workers Social Security Board or a Labour Department service centre.",
+      "Confirm registration, eligible work, current benefit amounts and claim deadlines.",
+      "Submit the claim documents through the current Board process and keep the acknowledgement."
+    ],
+    "officialUrl": "https://ksuwssb.karnataka.gov.in/en",
+    "sources": [
+      "https://ksuwssb.karnataka.gov.in/en",
+      "https://data.opencity.in/dataset/699b7b8d-3813-4e44-8d70-cfdf1414ee85/resource/ee584e22-2c78-4a54-9054-74db776a9a53/download/economic_survey_2025-26_english_finalmpdf_1772796504.pdf"
+    ],
+    "lastVerified": "2026-11-27",
+    "verificationStatus": "The Karnataka Economic Survey 2025–26 reports this benefit and 119 registered workers; confirm current registration and claim conditions with the Board."
   }
 ]

@@ -14,6 +14,7 @@ import {
 import { Notice } from '../components/Notice.jsx';
 import { LoadingError } from '../components/LoadingError.jsx';
 import { SchemeCard } from '../components/SchemeCard.jsx';
+import { AwarenessSection } from '../components/AwarenessSection.jsx';
 import { toggleCompare } from '../utils/compare.js';
 
 export function Home() {
@@ -130,6 +131,7 @@ export function Home() {
           </div>
         </div>
       </section>
+      <AwarenessSection />
       <section className="section container">
         <div className="center-head">
           <div className="eyebrow">BUILT AROUND YOUR NEEDS</div>

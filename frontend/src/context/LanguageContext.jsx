@@ -108,6 +108,24 @@ const copy = {
     footer:
       'A student information project. Scheme information can change; always confirm with the relevant government authority.',
     homeSub: 'Helping workers find a clearer path to public benefits.',
+    awarenessEyebrow: 'WHY IT MATTERS',
+    awarenessTitle: 'Small steps can support your future',
+    awarenessIntro:
+      'Life cover, accident cover and pensions may help you and your family through difficult times.',
+    awarenessLifeTitle: 'Life insurance',
+    awarenessLifeText:
+      'If you die while your cover is active, life insurance may give money to your family for daily needs.',
+    awarenessLifeLink: 'See life insurance schemes',
+    awarenessAccidentTitle: 'Accident cover',
+    awarenessAccidentText:
+      'Accident insurance may help after certain accidents or injuries. The policy says what is covered.',
+    awarenessAccidentLink: 'See accident schemes',
+    awarenessPensionTitle: 'Pension',
+    awarenessPensionText:
+      'A pension scheme may provide regular income later in life. You may need to contribute, and each scheme has its own rules.',
+    awarenessPensionLink: 'See pension schemes',
+    awarenessNote:
+      'Each scheme has its own benefits and rules. Check the cost and eligibility before joining.',
   },
   kn: {
     home: 'ಮುಖಪುಟ',
@@ -207,6 +225,24 @@ const copy = {
     error: 'ಮಾಹಿತಿ ಲೋಡ್ ಆಗಲಿಲ್ಲ. ಬ್ಯಾಕೆಂಡ್ ಚಾಲನೆಯಲ್ಲಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.',
     footer: 'ವಿದ್ಯಾರ್ಥಿ ಮಾಹಿತಿ ಯೋಜನೆ. ವಿವರಗಳು ಬದಲಾಗಬಹುದು; ಸಂಬಂಧಿತ ಸರ್ಕಾರಿ ಪ್ರಾಧಿಕಾರದಲ್ಲಿ ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.',
     homeSub: 'ಸಾರ್ವಜನಿಕ ಸೌಲಭ್ಯಗಳನ್ನು ಹುಡುಕಲು ಕಾರ್ಮಿಕರಿಗೆ ಸರಳ ಮಾರ್ಗ.',
+    awarenessEyebrow: 'ಇದು ಏಕೆ ಮುಖ್ಯ',
+    awarenessTitle: 'ಭವಿಷ್ಯಕ್ಕೆ ನೆರವಾಗುವ ಸಣ್ಣ ಹೆಜ್ಜೆಗಳು',
+    awarenessIntro:
+      'ಜೀವ ವಿಮೆ, ಅಪಘಾತ ವಿಮೆ ಮತ್ತು ಪಿಂಚಣಿ ಕಷ್ಟದ ಸಮಯದಲ್ಲಿ ನಿಮಗೂ ನಿಮ್ಮ ಕುಟುಂಬಕ್ಕೂ ನೆರವಾಗಬಹುದು.',
+    awarenessLifeTitle: 'ಜೀವ ವಿಮೆ',
+    awarenessLifeText:
+      'ವಿಮಾ ರಕ್ಷಣೆ ಇರುವಾಗ ನೀವು ಮೃತಪಟ್ಟರೆ, ಯೋಜನೆಯ ನಿಯಮಗಳಂತೆ ನಿಮ್ಮ ಕುಟುಂಬಕ್ಕೆ ಹಣ ಸಿಗಬಹುದು.',
+    awarenessLifeLink: 'ಜೀವ ವಿಮೆ ಯೋಜನೆಗಳನ್ನು ನೋಡಿ',
+    awarenessAccidentTitle: 'ಅಪಘಾತ ವಿಮೆ',
+    awarenessAccidentText:
+      'ಅಪಘಾತದಿಂದ ಗಾಯವಾದರೆ ಅಥವಾ ಅಂಗವೈಕಲ್ಯ ಉಂಟಾದರೆ ವಿಮೆ ನೆರವಾಗಬಹುದು. ಸೌಲಭ್ಯವು ಯೋಜನೆಯ ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿರುತ್ತದೆ.',
+    awarenessAccidentLink: 'ಅಪಘಾತ ವಿಮೆ ಯೋಜನೆಗಳನ್ನು ನೋಡಿ',
+    awarenessPensionTitle: 'ಪಿಂಚಣಿ',
+    awarenessPensionText:
+      'ಪಿಂಚಣಿ ಯೋಜನೆ ವಯಸ್ಸಾದ ಬಳಿಕ ನಿಯಮಿತ ಆದಾಯಕ್ಕೆ ನೆರವಾಗಬಹುದು. ಕೆಲವು ಯೋಜನೆಗಳಲ್ಲಿ ನೀವು ಪ್ರತಿ ತಿಂಗಳು ಹಣ ಕಟ್ಟಬೇಕು.',
+    awarenessPensionLink: 'ಪಿಂಚಣಿ ಯೋಜನೆಗಳನ್ನು ನೋಡಿ',
+    awarenessNote:
+      'ಪ್ರತಿ ಯೋಜನೆಯ ಸೌಲಭ್ಯ ಮತ್ತು ಅರ್ಹತೆ ಬೇರೆ. ಸೇರುವ ಮೊದಲು ವೆಚ್ಚ ಮತ್ತು ನಿಯಮಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.',
   },
 };
 const Ctx = createContext(null);

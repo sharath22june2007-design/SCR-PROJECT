@@ -2,16 +2,20 @@ import { useLang } from '../context/LanguageContext.jsx';
 import { useState, useEffect } from 'react';
 import { getSchemes as apiSchemes } from '../services/api.js';
 import { Search, Scale, ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { categories, occupations } from '../data/options.js';
 import { LoadingError } from '../components/LoadingError.jsx';
 import { SchemeCard } from '../components/SchemeCard.jsx';
 
 export function Browse() {
   const { t } = useLang();
+  const [searchParams] = useSearchParams();
+  const initialCategory = searchParams.get('category');
   const [rows, setRows] = useState([]),
     [q, setQ] = useState(''),
-    [category, setCategory] = useState('all'),
+    [category, setCategory] = useState(() =>
+      categories.includes(initialCategory) ? initialCategory : 'all'
+    ),
     [level, setLevel] = useState('all'),
     [occupation, setOccupation] = useState('all'),
     [loading, setLoading] = useState(true),

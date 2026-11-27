@@ -58,6 +58,17 @@ app.post('/api/schemes/find', (req, res) => {
     'street-vendor',
     'domestic',
     'daily-wage',
+    'agricultural-worker',
+    'farmer',
+    'small-trader',
+    'self-employed',
+    'gig-worker',
+    'transport-worker',
+    'distribution-worker',
+    'beedi-worker',
+    'cine-worker',
+    'mine-worker',
+    'fisher',
     'other',
   ];
   if (!Number.isInteger(age) || age < 16 || age > 120)
@@ -77,6 +88,7 @@ app.post('/api/schemes/find', (req, res) => {
       'Life Insurance',
       'Accident Insurance',
       'Health-related benefits',
+      'Worker and family support',
     ].includes(category)
   )
     return res.status(400).json({ error: 'Choose a valid benefit category.' });

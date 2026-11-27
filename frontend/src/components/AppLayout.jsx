@@ -1,11 +1,15 @@
 import { useLang } from '../context/LanguageContext.jsx';
-import { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import { ShieldCheck, Menu, ChevronDown } from 'lucide-react';
 
 export function AppLayout({ children }) {
   const { t, lang, setLang } = useLang();
   const [open, setOpen] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => setOpen(false), [location.pathname]);
+
   return (
     <>
       <header className="topbar">
@@ -21,17 +25,33 @@ export function AppLayout({ children }) {
           </Link>
           <button
             className="mobile-menu"
-            onClick={() => setOpen(!open)}
+            type="button"
+            onClick={() => setOpen((current) => !current)}
             aria-label="Toggle navigation"
+            aria-expanded={open}
+            aria-controls="primary-navigation"
           >
             <Menu />
           </button>
-          <nav className={open ? 'navlinks open' : 'navlinks'}>
-            <NavLink to="/">{t.home}</NavLink>
-            <NavLink to="/find">{t.find}</NavLink>
-            <NavLink to="/schemes">{t.browse}</NavLink>
-            <NavLink to="/compare">{t.compare}</NavLink>
-            <NavLink to="/about">{t.about}</NavLink>
+          <nav
+            id="primary-navigation"
+            className={open ? 'navlinks open' : 'navlinks'}
+          >
+            <NavLink to="/" onClick={() => setOpen(false)}>
+              {t.home}
+            </NavLink>
+            <NavLink to="/find" onClick={() => setOpen(false)}>
+              {t.find}
+            </NavLink>
+            <NavLink to="/schemes" onClick={() => setOpen(false)}>
+              {t.browse}
+            </NavLink>
+            <NavLink to="/compare" onClick={() => setOpen(false)}>
+              {t.compare}
+            </NavLink>
+            <NavLink to="/about" onClick={() => setOpen(false)}>
+              {t.about}
+            </NavLink>
           </nav>
           <button className="lang" onClick={() => setLang(lang === 'en' ? 'kn' : 'en')}>
             {lang === 'en' ? 'ಕನ್ನಡ' : 'English'} <ChevronDown size={14} />
