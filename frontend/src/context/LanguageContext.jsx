@@ -5,6 +5,7 @@ const copy = {
     find: 'Find schemes',
     browse: 'Browse schemes',
     compare: 'Compare',
+    learn: 'Learn',
     about: 'About',
     language: 'ಕನ್ನಡ',
     hero: 'Discover Government Insurance & Pension Schemes',
@@ -108,30 +109,59 @@ const copy = {
     footer:
       'A student information project. Scheme information can change; always confirm with the relevant government authority.',
     homeSub: 'Helping workers find a clearer path to public benefits.',
-    awarenessEyebrow: 'WHY IT MATTERS',
-    awarenessTitle: 'Small steps can support your future',
+    awarenessEyebrow: 'WORKER AWARENESS',
+    awarenessTitle: 'Know what protection can do',
     awarenessIntro:
-      'Life cover, accident cover and pensions may help you and your family through difficult times.',
+      'A simple guide to life insurance, accident cover and pensions—and what to check before joining.',
+    awarenessRead: 'Read the simple guide',
     awarenessLifeTitle: 'Life insurance',
-    awarenessLifeText:
-      'If you die while your cover is active, life insurance may give money to your family for daily needs.',
     awarenessLifeLink: 'See life insurance schemes',
     awarenessAccidentTitle: 'Accident cover',
-    awarenessAccidentText:
-      'Accident insurance may help after certain accidents or injuries. The policy says what is covered.',
     awarenessAccidentLink: 'See accident schemes',
     awarenessPensionTitle: 'Pension',
-    awarenessPensionText:
-      'A pension scheme may provide regular income later in life. You may need to contribute, and each scheme has its own rules.',
     awarenessPensionLink: 'See pension schemes',
-    awarenessNote:
-      'Each scheme has its own benefits and rules. Check the cost and eligibility before joining.',
+    learnEyebrow: 'A SIMPLE GUIDE',
+    learnTitle: 'Understand your protection options',
+    learnIntro:
+      'Learn what life insurance, accident cover and pensions can do, and what to check before joining a scheme.',
+    learnBeforeJoining: 'Before you join, check:',
+    learnLifeWhy:
+      'If the insured person dies while the cover is active, the policy may pay the named beneficiary. This can help the family manage everyday costs.',
+    learnLifeChecks: [
+      'Who is covered, and what situations are excluded?',
+      'What is the premium, when is it due, and when does the cover renew?',
+      'Name a beneficiary and tell your family where the policy details are kept.',
+    ],
+    learnAccidentWhy:
+      'A covered accident may lead to a payment for death or disability. Some schemes also help with hospital expenses.',
+    learnAccidentChecks: [
+      'Which workers and work activities are covered?',
+      'Which injuries qualify, and what proof or claim deadline applies?',
+      'Who can make a claim for the worker?',
+    ],
+    learnPensionWhy:
+      'A pension can provide regular income later in life. Contributory schemes ask you to pay regularly to receive the stated pension.',
+    learnPensionChecks: [
+      'What are the age, occupation and other eligibility rules?',
+      'How much do you pay, how often, and when can the pension start?',
+      'What happens if you miss payments or the subscriber dies?',
+    ],
+    learnNextEyebrow: 'TAKE A PRACTICAL NEXT STEP',
+    learnNextTitle: 'How to get started',
+    learnSteps: [
+      'Browse schemes that fit your work and needs.',
+      'Check eligibility, benefits, costs and exclusions.',
+      'Confirm the latest rules with the official department, bank or service centre.',
+    ],
+    learnNotice:
+      'This site provides information; it does not enrol applicants. Confirm the latest rules with the official authority.',
   },
   kn: {
     home: 'ಮುಖಪುಟ',
     find: 'ಯೋಜನೆ ಹುಡುಕಿ',
     browse: 'ಯೋಜನೆಗಳನ್ನು ನೋಡಿ',
     compare: 'ಹೋಲಿಸಿ',
+    learn: 'ತಿಳಿಯಿರಿ',
     about: 'ನಮ್ಮ ಬಗ್ಗೆ',
     language: 'English',
     hero: 'ಸರ್ಕಾರಿ ವಿಮೆ ಮತ್ತು ಪಿಂಚಣಿ ಯೋಜನೆಗಳನ್ನು ತಿಳಿಯಿರಿ',
@@ -225,24 +255,52 @@ const copy = {
     error: 'ಮಾಹಿತಿ ಲೋಡ್ ಆಗಲಿಲ್ಲ. ಬ್ಯಾಕೆಂಡ್ ಚಾಲನೆಯಲ್ಲಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.',
     footer: 'ವಿದ್ಯಾರ್ಥಿ ಮಾಹಿತಿ ಯೋಜನೆ. ವಿವರಗಳು ಬದಲಾಗಬಹುದು; ಸಂಬಂಧಿತ ಸರ್ಕಾರಿ ಪ್ರಾಧಿಕಾರದಲ್ಲಿ ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.',
     homeSub: 'ಸಾರ್ವಜನಿಕ ಸೌಲಭ್ಯಗಳನ್ನು ಹುಡುಕಲು ಕಾರ್ಮಿಕರಿಗೆ ಸರಳ ಮಾರ್ಗ.',
-    awarenessEyebrow: 'ಇದು ಏಕೆ ಮುಖ್ಯ',
-    awarenessTitle: 'ಭವಿಷ್ಯಕ್ಕೆ ನೆರವಾಗುವ ಸಣ್ಣ ಹೆಜ್ಜೆಗಳು',
+    awarenessEyebrow: 'ಕಾರ್ಮಿಕರಿಗಾಗಿ ಮಾಹಿತಿ',
+    awarenessTitle: 'ವಿಮೆ ಮತ್ತು ಪಿಂಚಣಿ ಹೇಗೆ ನೆರವಾಗುತ್ತವೆ?',
     awarenessIntro:
-      'ಜೀವ ವಿಮೆ, ಅಪಘಾತ ವಿಮೆ ಮತ್ತು ಪಿಂಚಣಿ ಕಷ್ಟದ ಸಮಯದಲ್ಲಿ ನಿಮಗೂ ನಿಮ್ಮ ಕುಟುಂಬಕ್ಕೂ ನೆರವಾಗಬಹುದು.',
+      'ಜೀವ ವಿಮೆ, ಅಪಘಾತ ವಿಮೆ ಮತ್ತು ಪಿಂಚಣಿ ಬಗ್ಗೆ ಹಾಗೂ ಯೋಜನೆ ಸೇರುವ ಮೊದಲು ಏನು ಪರಿಶೀಲಿಸಬೇಕು ಎಂಬ ಸರಳ ಮಾರ್ಗದರ್ಶಿ.',
+    awarenessRead: 'ಸರಳ ಮಾರ್ಗದರ್ಶಿ ಓದಿ',
     awarenessLifeTitle: 'ಜೀವ ವಿಮೆ',
-    awarenessLifeText:
-      'ವಿಮಾ ರಕ್ಷಣೆ ಇರುವಾಗ ನೀವು ಮೃತಪಟ್ಟರೆ, ಯೋಜನೆಯ ನಿಯಮಗಳಂತೆ ನಿಮ್ಮ ಕುಟುಂಬಕ್ಕೆ ಹಣ ಸಿಗಬಹುದು.',
     awarenessLifeLink: 'ಜೀವ ವಿಮೆ ಯೋಜನೆಗಳನ್ನು ನೋಡಿ',
     awarenessAccidentTitle: 'ಅಪಘಾತ ವಿಮೆ',
-    awarenessAccidentText:
-      'ಅಪಘಾತದಿಂದ ಗಾಯವಾದರೆ ಅಥವಾ ಅಂಗವೈಕಲ್ಯ ಉಂಟಾದರೆ ವಿಮೆ ನೆರವಾಗಬಹುದು. ಸೌಲಭ್ಯವು ಯೋಜನೆಯ ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿರುತ್ತದೆ.',
     awarenessAccidentLink: 'ಅಪಘಾತ ವಿಮೆ ಯೋಜನೆಗಳನ್ನು ನೋಡಿ',
     awarenessPensionTitle: 'ಪಿಂಚಣಿ',
-    awarenessPensionText:
-      'ಪಿಂಚಣಿ ಯೋಜನೆ ವಯಸ್ಸಾದ ಬಳಿಕ ನಿಯಮಿತ ಆದಾಯಕ್ಕೆ ನೆರವಾಗಬಹುದು. ಕೆಲವು ಯೋಜನೆಗಳಲ್ಲಿ ನೀವು ಪ್ರತಿ ತಿಂಗಳು ಹಣ ಕಟ್ಟಬೇಕು.',
     awarenessPensionLink: 'ಪಿಂಚಣಿ ಯೋಜನೆಗಳನ್ನು ನೋಡಿ',
-    awarenessNote:
-      'ಪ್ರತಿ ಯೋಜನೆಯ ಸೌಲಭ್ಯ ಮತ್ತು ಅರ್ಹತೆ ಬೇರೆ. ಸೇರುವ ಮೊದಲು ವೆಚ್ಚ ಮತ್ತು ನಿಯಮಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.',
+    learnEyebrow: 'ಸರಳ ಮಾರ್ಗದರ್ಶಿ',
+    learnTitle: 'ನಿಮ್ಮ ಆಯ್ಕೆಗಳನ್ನು ತಿಳಿದುಕೊಳ್ಳಿ',
+    learnIntro:
+      'ಜೀವ ವಿಮೆ, ಅಪಘಾತ ವಿಮೆ ಮತ್ತು ಪಿಂಚಣಿ ಹೇಗೆ ನೆರವಾಗಬಹುದು, ಯೋಜನೆ ಸೇರುವ ಮೊದಲು ಏನು ಪರಿಶೀಲಿಸಬೇಕು ಎಂಬುದನ್ನು ತಿಳಿಯಿರಿ.',
+    learnBeforeJoining: 'ಸೇರುವ ಮೊದಲು ಪರಿಶೀಲಿಸಿ:',
+    learnLifeWhy:
+      'ವಿಮೆ ಚಾಲ್ತಿಯಲ್ಲಿರುವಾಗ ವಿಮೆ ಪಡೆದ ವ್ಯಕ್ತಿ ಮೃತಪಟ್ಟರೆ, ಯೋಜನೆಯ ನಿಯಮಗಳಂತೆ ನಾಮಿನಿಗೆ ಹಣ ಸಿಗಬಹುದು. ಈ ಹಣ ಕುಟುಂಬದ ದಿನನಿತ್ಯದ ಖರ್ಚಿಗೆ ನೆರವಾಗಬಹುದು.',
+    learnLifeChecks: [
+      'ಯಾರಿಗೆ ವಿಮಾ ರಕ್ಷಣೆ ಇದೆ? ಯಾವ ಸಂದರ್ಭಗಳಿಗೆ ಹಣ ಸಿಗುವುದಿಲ್ಲ?',
+      'ಪ್ರೀಮಿಯಂ ಎಷ್ಟು? ಯಾವಾಗ ಪಾವತಿಸಬೇಕು? ವಿಮೆ ಯಾವಾಗ ನವೀಕರಣವಾಗುತ್ತದೆ?',
+      'ನಾಮಿನಿಯ ಹೆಸರನ್ನು ನೀಡಿ. ವಿಮೆಯ ದಾಖಲೆಗಳು ಎಲ್ಲಿವೆ ಎಂದು ಕುಟುಂಬದವರಿಗೆ ತಿಳಿಸಿ.',
+    ],
+    learnAccidentWhy:
+      'ವಿಮೆ ಒಳಗೊಂಡಿರುವ ಅಪಘಾತದಿಂದ ಸಾವು ಅಥವಾ ಅಂಗವೈಕಲ್ಯ ಉಂಟಾದರೆ ಹಣ ಸಿಗಬಹುದು. ಕೆಲವು ಯೋಜನೆಗಳು ಆಸ್ಪತ್ರೆ ವೆಚ್ಚಕ್ಕೂ ನೆರವಾಗುತ್ತವೆ.',
+    learnAccidentChecks: [
+      'ಯಾವ ಕಾರ್ಮಿಕರು ಮತ್ತು ಯಾವ ಕೆಲಸಗಳು ವಿಮೆಯಲ್ಲಿ ಸೇರಿವೆ?',
+      'ಯಾವ ಗಾಯಗಳಿಗೆ ನೆರವು ಸಿಗುತ್ತದೆ? ಯಾವ ದಾಖಲೆ ಮತ್ತು ಅರ್ಜಿ ಗಡುವು ಬೇಕು?',
+      'ಕಾರ್ಮಿಕರ ಪರವಾಗಿ ಯಾರು ಅರ್ಜಿ ಸಲ್ಲಿಸಬಹುದು?',
+    ],
+    learnPensionWhy:
+      'ಪಿಂಚಣಿಯಿಂದ ವಯಸ್ಸಾದ ಮೇಲೆ ನಿಯಮಿತ ಹಣ ಸಿಗಬಹುದು. ಕೆಲವು ಯೋಜನೆಗಳಿಗೆ ನೀವು ನಿಯಮಿತವಾಗಿ ಹಣ ಕಟ್ಟಬೇಕು.',
+    learnPensionChecks: [
+      'ವಯಸ್ಸು, ಉದ್ಯೋಗ ಮತ್ತು ಇತರ ಅರ್ಹತಾ ನಿಯಮಗಳೇನು?',
+      'ಎಷ್ಟು ಹಣ, ಎಷ್ಟು ಬಾರಿ ಕಟ್ಟಬೇಕು? ಪಿಂಚಣಿ ಯಾವಾಗ ಆರಂಭವಾಗುತ್ತದೆ?',
+      'ಹಣ ಕಟ್ಟುವುದು ತಪ್ಪಿದರೆ ಅಥವಾ ಸದಸ್ಯರು ಮೃತಪಟ್ಟರೆ ಏನಾಗುತ್ತದೆ?',
+    ],
+    learnNextEyebrow: 'ಮುಂದಿನ ಸರಳ ಹೆಜ್ಜೆ',
+    learnNextTitle: 'ಹೇಗೆ ಪ್ರಾರಂಭಿಸಬೇಕು?',
+    learnSteps: [
+      'ನಿಮ್ಮ ಕೆಲಸ ಮತ್ತು ಅಗತ್ಯಕ್ಕೆ ಹೊಂದುವ ಯೋಜನೆಗಳನ್ನು ನೋಡಿ.',
+      'ಅರ್ಹತೆ, ಸೌಲಭ್ಯ, ವೆಚ್ಚ ಮತ್ತು ಹೊರತಾಗಿರುವ ಷರತ್ತುಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.',
+      'ಅಧಿಕೃತ ಇಲಾಖೆ, ಬ್ಯಾಂಕ್ ಅಥವಾ ಸೇವಾ ಕೇಂದ್ರದಲ್ಲಿ ಇತ್ತೀಚಿನ ನಿಯಮಗಳನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.',
+    ],
+    learnNotice:
+      'ಈ ತಾಣ ಮಾಹಿತಿ ಮಾತ್ರ ನೀಡುತ್ತದೆ; ಇಲ್ಲಿ ಅರ್ಜಿ ಸಲ್ಲಿಸುವುದಿಲ್ಲ. ಇತ್ತೀಚಿನ ನಿಯಮಗಳನ್ನು ಅಧಿಕೃತ ಪ್ರಾಧಿಕಾರದಲ್ಲಿ ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.',
   },
 };
 const Ctx = createContext(null);

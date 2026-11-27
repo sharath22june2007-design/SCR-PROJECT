@@ -49,6 +49,9 @@ export function AppLayout({ children }) {
             <NavLink to="/compare" onClick={() => setOpen(false)}>
               {t.compare}
             </NavLink>
+            <NavLink to="/learn" onClick={() => setOpen(false)}>
+              {t.learn}
+            </NavLink>
             <NavLink to="/about" onClick={() => setOpen(false)}>
               {t.about}
             </NavLink>
@@ -73,6 +76,7 @@ export function AppLayout({ children }) {
           <div className="footlinks">
             <Link to="/find">{t.find}</Link>
             <Link to="/schemes">{t.browse}</Link>
+            <Link to="/learn">{t.learn}</Link>
             <Link to="/about">{t.about}</Link>
           </div>
         </div>

@@ -1021,21 +1021,42 @@ footer {
 .awareness-section {
   padding-top: 42px;
 }
-.awareness-heading {
-  margin-bottom: 20px;
-}
-.awareness-grid {
-  align-items: stretch;
-}
-.awareness-card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  min-height: 235px;
-  padding: 22px;
+.awareness-preview {
+  padding: 30px;
   border: 1px solid var(--line);
-  border-radius: 12px;
-  background: #fff;
+  border-radius: 16px;
+  background: linear-gradient(115deg, #f1f8f6 0%, #ffffff 75%);
+}
+.awareness-preview-copy {
+  max-width: 780px;
+}
+.awareness-preview h2 {
+  margin: 7px 0 9px;
+  color: var(--navy);
+  font: 750 25px Manrope;
+}
+.awareness-preview p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.65;
+}
+.awareness-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  margin: 18px 0 22px;
+}
+.awareness-topic {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #365766;
+  font-size: 12px;
+  font-weight: 700;
+}
+.awareness-topic svg {
+  color: var(--teal);
 }
 .awareness-icon {
   display: grid;
@@ -1047,26 +1068,92 @@ footer {
   background: #e8f4f1;
   border-radius: 12px;
 }
-.awareness-card h3 {
-  margin: 0 0 9px;
-  color: var(--navy);
-  font: 700 16px Manrope;
+.learn-intro {
+  max-width: 760px;
 }
-.awareness-card p {
-  margin: 0 0 18px;
+.learn-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 17px;
+  margin: 28px 0 48px;
+}
+.learn-card {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
+}
+.learn-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.learn-card .awareness-icon {
+  margin-bottom: 13px;
+}
+.learn-number {
+  color: #9aadb3;
+  font: 700 12px Manrope;
+}
+.learn-card h2,
+.learn-next h2 {
+  margin: 0 0 11px;
+  color: var(--navy);
+  font: 750 18px Manrope;
+}
+.learn-explanation {
+  margin: 0 0 20px;
   color: var(--muted);
   font-size: 12px;
-  line-height: 1.65;
+  line-height: 1.7;
 }
-.awareness-card .text-link {
-  margin-top: auto;
-  font-size: 11px;
+.learn-card h3 {
+  margin: 0 0 10px;
+  color: #365766;
+  font: 700 12px Manrope;
 }
-.awareness-note {
-  margin: 17px 0 0;
+.learn-card ul {
+  display: grid;
+  gap: 10px;
+  margin: 0 0 22px;
+  padding-left: 18px;
   color: var(--muted);
   font-size: 11px;
   line-height: 1.6;
+}
+.learn-link {
+  margin-top: auto;
+}
+.learn-next {
+  margin-bottom: 24px;
+  padding: 24px;
+  border-radius: 14px;
+  background: #f2f7f6;
+}
+.learn-next .eyebrow {
+  margin-bottom: 8px;
+}
+.learn-next-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+}
+.learn-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+}
+.learn-step p {
+  margin: 4px 0 0;
+  color: #4d6775;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.learn-notice {
+  margin-top: 20px;
 }
 .about-card {
   border: 1px solid var(--line);
@@ -1259,6 +1346,26 @@ button:disabled {
   }
   .cards.three {
     grid-template-columns: 1fr;
+  }
+  .awareness-preview {
+    padding: 22px;
+  }
+  .awareness-preview h2 {
+    font-size: 21px;
+  }
+  .learn-grid,
+  .learn-next-steps {
+    grid-template-columns: 1fr;
+  }
+  .learn-grid {
+    gap: 13px;
+    margin: 20px 0 36px;
+  }
+  .learn-card {
+    padding: 19px;
+  }
+  .learn-next {
+    padding: 20px;
   }
   .scheme-card {
     min-height: 0;

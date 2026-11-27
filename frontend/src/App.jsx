@@ -8,6 +8,7 @@ import { Results } from './pages/SchemeResults.jsx';
 import { Details } from './pages/SchemeDetails.jsx';
 import { Compare } from './pages/SchemeCompare.jsx';
 import { About } from './pages/About.jsx';
+import { Learn } from './pages/Learn.jsx';
 
 export default function App() {
   const location = useLocation();
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/schemes/:id" element={<Details />} />
         <Route path="/compare" element={<Compare />} />
         <Route path="/about" element={<About />} />
+        <Route path="/learn" element={<Learn />} />
         <Route
           path="*"
           element={
